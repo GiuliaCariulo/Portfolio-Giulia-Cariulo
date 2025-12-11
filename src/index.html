@@ -5,52 +5,98 @@
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body>
     <header id="home">
-      <div class="container">
-        <div class="row">
-          <div class="col-1">
-            <a href="#home"
-              ><img
-                src="img/mascott-face-black.png?as=webp&width=80"
-                alt="the face's mascott of the portfolio"
-            /></a>
-          </div>
-          <div class="col-10">
-            <nav>
-              <a href="#projects">Projets</a>
-              <button>Showreel</button>
-              <a href="#cv">CV</a>
-              <a href="#me">Moi</a>
-              <a href="#contact">Contact</a>
-            </nav>
-          </div>
-          <div class="col-1">fr|en</div>
-        </div>
-      </div>
+      <a href="#home"
+        ><img
+          src="img/mascott-face-black.png?as=webp&width=80"
+          alt="the mascott's portfolio face"
+      /></a>
+      <nav>
+        <a href="#projects">Projets</a>
+        <button>Showreel</button>
+        <a href="#cv">CV</a>
+        <a href="#me">Moi</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div>fr|en</div>
     </header>
+    <main>
+      <section class="hero">
+        <div class="line"></div>
+        <h1>
+          <img
+            src="img/title-desktop.png?as=webp&width=995"
+            alt="Portfolio Giulia"
+          />
+        </h1>
+        <button>Projets</button>
+      </section>
+      <section class="project">
+        <div class="line"></div>
+        <h2>Projets</h2>
+        <div class="line"></div>
+        <nav class="filter">
+          <ul>
+            <li>Tout</li>
+            <li>Ui/Ux & Web Dev</li>
+            <li>Photo</li>
+            <li>Video</li>
+            <li>Graphisme</li>
+          </ul>
+        </nav>
+        <div class="line"></div>
+        <section class="project-flow">
+          Introduire include project card avec un id sur chacun pour réudire la
+          taille
+        </section>
+        <div class="line"></div>
+      </section>
+      <section class="cv">
+        <h2>Curriculum vitae</h2>
+        <button>Télécharger</button>
+        <div class="line"></div>
+        <nav>
+          <ul>
+            <li>Formations</li>
+            <li>Compétences</li>
+            <li>Expériences</li>
+            <li>Langues</li>
+          </ul>
+        </nav>
+        <div class="line"></div>
+        <section class="cv-content">Introduire include cv content</section>
+        <div class="line"></div>
+      </section>
+      <section class="me">
+        <h2>Moi? Giulia</h2>
+        <div class="line"></div>
+        <h3>Apprentie Interactive Media Designer</h3>
+        <p>Auto-présentation</p>
+        <img
+          src="img/mascott-face-green.png?as=webp&width=400"
+          alt="the mascott's portfolio face"
+        />
+        <img src="img/cv.png?as=webp&width=400" alt="Picture of me" />
+        <div class="line"></div>
+      </section>
+      <section class="contact">
+        <h2>Contactez-moi</h2>
+        <div class="line"></div>
+        <ul>
+          <li>Téléphone</li>
+          <li>Mail</li>
+          <li>Instagram</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <div class="line"></div>
+      <h2>Merci pour votre attention !</h2>
+      <div class="line"></div>
+      <p>©GiuliaCariulo</p>
+    </footer>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>
