@@ -1,0 +1,18 @@
+:root {
+  --green: #00c023;
+  --black: #000;
+  --white: #fff;
+}
+
+body {
+  background-color: var(--black);
+}
+
+footer {
+  background-color: var(--green);
+}
+
+header,
+.hero {
+  background-color: var(--green);
+}
