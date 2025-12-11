@@ -4,15 +4,15 @@
   --white: #fff;
 }
 
-body {
+body,
+.hero {
+  background-color: var(--green);
+}
+
+main {
   background-color: var(--black);
 }
 
-footer {
-  background-color: var(--green);
-}
-
-header,
-.hero {
-  background-color: var(--green);
+body {
+  padding: 20px 0;
 }
