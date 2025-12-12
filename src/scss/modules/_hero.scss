@@ -1,0 +1,25 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid var(--black);
+  border-top: 2px solid var(--black);
+  padding: 10px 0;
+  margin: 65px 0 95px;
+}
+
+.hero div {
+  position: relative;
+  width: 1200px;
+}
+
+.hero-btn {
+  position: absolute;
+  right: 0;
+  top: 280px;
+  border: 2px solid var(--black);
+  border-radius: 25px;
+  padding: 10px 100px;
+  text-transform: uppercase;
+  color: var(--black);
+}

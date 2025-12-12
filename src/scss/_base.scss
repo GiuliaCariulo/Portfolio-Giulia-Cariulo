@@ -24,14 +24,14 @@ body {
 }
 
 nav a,
-nav button {
+header button {
   text-transform: uppercase;
   color: var(--black);
   text-decoration: none;
   font-size: 18px;
 }
 
-nav button {
+header button {
   background-color: inherit;
   border: none;
   // bold wtf

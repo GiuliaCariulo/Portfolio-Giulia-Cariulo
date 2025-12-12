@@ -16,3 +16,16 @@ main {
 body {
   padding: 20px 0;
 }
+
+header,
+main,
+footer {
+  padding: 0 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // Center ou baseline ?
+}
