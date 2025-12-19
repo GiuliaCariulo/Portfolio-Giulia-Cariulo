@@ -4,23 +4,23 @@
   --white: #fff;
 }
 
-body,
-.hero {
+body {
   background-color: var(--green);
 }
 
-main {
+.project,
+.cv,
+.me,
+.contact {
   background-color: var(--black);
+}
+
+section {
+  padding: 0 20px;
 }
 
 body {
   padding: 20px 0;
-}
-
-header,
-main,
-footer {
-  padding: 0 20px;
 }
 
 header {
