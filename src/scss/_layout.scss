@@ -2,6 +2,8 @@
   --green: #00c023;
   --black: #000;
   --white: #fff;
+  --base-font: "Greycliff CF";
+  --contrast-font: "Widescreen";
 }
 
 body {
@@ -23,9 +25,6 @@ body {
   padding: 20px 0;
 }
 
-// header {
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-//   // Center ou baseline ?
-// }
+header {
+  position: absolute;
+}

@@ -24,6 +24,15 @@
 //   color: var(--black);
 // }
 
-// .hero-title-desktop {
-//   display: none;
-// }
+.hero-title-desktop {
+  display: none;
+}
+
+.hero-title-mobile {
+  font-size: 60px;
+  color: var(--black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

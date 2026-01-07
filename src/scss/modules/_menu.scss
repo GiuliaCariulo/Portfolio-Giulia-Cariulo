@@ -1,9 +1,6 @@
 .menu-burger {
   width: 30px;
   height: 19px;
-  position: fixed;
-  top: 20px;
-  right: 20px;
   z-index: 1;
 }
 
@@ -28,11 +25,6 @@
 }
 
 .menu {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   padding: 60px 0;
   background-color: var(--black);
   opacity: 0;
