@@ -7,6 +7,26 @@
   z-index: 1;
 }
 
+.menu-burger div {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: var(--black);
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.menu-burger div:nth-child(1) {
+  top: 0;
+}
+
+.menu-burger div:nth-child(2) {
+  top: 8px;
+}
+
+.menu-burger div:nth-child(3) {
+  top: 16px;
+}
+
 .menu {
   position: fixed;
   top: 0;
@@ -34,30 +54,12 @@
   border-bottom: 1px solid var(--white);
 }
 
+// is-active –––––––––––––––––––––––––––––––––––––––
+
 .menu.is-active {
   opacity: 1;
   pointer-events: auto;
   transform: translateX(0);
-}
-
-.menu-burger div {
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  background-color: var(--black);
-  transition: transform 0.3s, opacity 0.3s;
-}
-
-.menu-burger div:nth-child(1) {
-  top: 0;
-}
-
-.menu-burger div:nth-child(2) {
-  top: 8px;
-}
-
-.menu-burger div:nth-child(3) {
-  top: 16px;
 }
 
 .menu-burger.is-active div:nth-child(1) {
