@@ -13,6 +13,30 @@ video {
   display: block;
 }
 
+body {
+  font-family: var(--base-font);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  letter-spacing: 0.2px;
+  color: var(--white);
+}
+
+h1,
+h2 {
+  font-family: var(--contrast-font);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+h2 {
+  padding: 35px 0;
+  border-top: 1px solid var(--green);
+  border-bottom: 1px solid var(--green);
+}
+
 nav a,
 header button {
   color: var(--black);
@@ -24,10 +48,4 @@ header button {
   background-color: inherit;
   border: none;
   // bold wtf
-}
-
-h2 {
-  padding: 35px 0;
-  border-top: 1px solid var(--green);
-  border-bottom: 1px solid var(--green);
 }
