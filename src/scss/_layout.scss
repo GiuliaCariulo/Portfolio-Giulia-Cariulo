@@ -2,15 +2,14 @@
   --green: #00c023;
   --black: #000;
   --white: #fff;
-  --base-font: "Greycliff CF";
-  --contrast-font: "Widescreen";
+  --base-font: greycliff-cf, sans-serif;
+  --contrast-font: widescreen-mixed, sans-serif;
 }
 
 body {
   background-color: var(--green);
   padding: 20px 0;
 }
-
 .project,
 .cv,
 .me,
@@ -19,7 +18,8 @@ body {
 }
 
 section {
-  padding: 20px;
+  padding: 60px 20px 0;
+  position: relative;
 }
 
 header {
