@@ -74,11 +74,19 @@
             Graphisme
           </div>
         </div>
-        <include src="project-card">
-          { "projectsubject": "Ui/Ux & Web Dev", "projecttitle": "Custom
-          Product", "projectimage": "img/substitution.png", "projectimagealt":
-          "View of the custom product's project" }
-        </include>
+        <div class="project-flow">
+          <include class="project-flow-left" src="project-card.html">
+            { "projectsubject": "Ui/Ux & Web Dev", "projecttitle": "Custom
+            Product", "projectimage": "img/substitution.png", "projectimagealt":
+            "View of the custom product's project" }
+          </include>
+
+          <include class="project-flow-right" src="project-card.html">
+            { "projectsubject": "Ui/Ux & Web Dev", "projecttitle": "Custom
+            Product", "projectimage": "img/substitution.png", "projectimagealt":
+            "View of the custom product's project" }
+          </include>
+        </div>
       </section>
     </main>
     <script src="js/main.js" type="module"></script>
