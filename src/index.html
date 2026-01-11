@@ -60,19 +60,25 @@
         <h2 data-translation="project.title">Projets</h2>
         <div class="line"></div>
         <div class="filter">
-          <div class="filter-selected">Tout</div>
-          <div class="filter-default">Ui/Ux & Web Dev</div>
-          <div class="filter-default">Photo</div>
-          <div class="filter-default">Video</div>
-          <div class="filter-default">Graphisme</div>
-        </div>
-        <div class="project-card">
-          <div>
-            <div class="project-subject">UX/UI web dev</div>
-            <h3>Custom Product</h3>
+          <div data-translation="filter.all" class="filter-selected">Tout</div>
+          <div data-translation="filter.web" class="filter-default">
+            Ui/Ux & Web Dev
           </div>
-          <img src="img/substitution.png?as=webp&height=160px" alt="" />
+          <div data-translation="filter.photo" class="filter-default">
+            Photo
+          </div>
+          <div data-translation="filter.video" class="filter-default">
+            Video
+          </div>
+          <div data-translation="filter.graphism" class="filter-default">
+            Graphisme
+          </div>
         </div>
+        <include src="project-card">
+          { "projectsubject": "Ui/Ux & Web Dev", "projecttitle": "Custom
+          Product", "projectimage": "img/substitution.png", "projectimagealt":
+          "View of the custom product's project" }
+        </include>
       </section>
     </main>
     <script src="js/main.js" type="module"></script>

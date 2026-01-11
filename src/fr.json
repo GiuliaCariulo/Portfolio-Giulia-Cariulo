@@ -1,4 +1,10 @@
 {
   "hero.btn": "Projets",
-  "project.title": "Projets"
+  "project.title": "Projets",
+
+  "filter.all": "Tout",
+  "filter.web": "Ui/Ux & Web Dev",
+  "filter.photo": "Photo",
+  "filter.video": "Video",
+  "filter.graphism": "Graphisme"
 }
