@@ -25,5 +25,12 @@
 
   "cv.education.first.language": "Français",
   "cv.education.second.language": "Anglais",
-  "cv.education.third.language": "Italien"
+  "cv.education.third.language": "Italien",
+
+  "me.title": "Moi?",
+  "me.apprentice": "Apprentie",
+
+  "contact.title": "Contactez-moi",
+
+  "footer.title": "Merci pour votre attention !"
 }

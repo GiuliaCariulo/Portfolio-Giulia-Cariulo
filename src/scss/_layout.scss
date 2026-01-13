@@ -17,11 +17,15 @@ body {
   background-color: var(--black);
 }
 
+header {
+  position: absolute;
+}
+
 section {
   padding: 60px 20px;
   position: relative;
 }
 
-header {
-  position: absolute;
+footer {
+  padding: 60px 20px 0;
 }

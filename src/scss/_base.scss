@@ -56,3 +56,17 @@ header button {
   border: none;
   // bold wtf
 }
+
+footer {
+  color: var(--black);
+}
+
+footer h2 {
+  text-align: left;
+}
+
+footer p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 30px;
+}

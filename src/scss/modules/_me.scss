@@ -1,0 +1,40 @@
+.me h2 em {
+  font-style: normal;
+}
+
+.me h3 {
+  font-family: var(--contrast-font);
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 4px;
+  letter-spacing: 0.75px;
+  line-height: 130%;
+  text-align: center;
+}
+
+.me h3 em {
+  font-family: var(--base-font);
+  font-weight: 300;
+  font-style: normal;
+  color: var(--green);
+}
+
+.me-flow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 30px;
+}
+
+.me-photo {
+  width: 150px;
+  height: 150px;
+  border: 1px solid var(--green);
+  border-radius: 50%;
+  background-image: url("/src/img/cv.png");
+  background-size: 90%;
+  background-position: center;
+}
