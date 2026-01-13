@@ -6,5 +6,12 @@
   "filter.web": "Ui/Ux & Web Dev",
   "filter.photo": "Photo",
   "filter.video": "Video",
-  "filter.graphism": "Graphism"
+  "filter.graphism": "Graphism",
+
+  "filter.education": "Education",
+  "filter.skills": "Skills",
+  "filter.experience": "Experience",
+  "filter.languages": "Languages",
+
+  "cv.formations.first.date": "2021-Now"
 }

@@ -1,17 +1,40 @@
 .project-flow {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 70px;
   text-transform: uppercase;
+}
+
+.project-card {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .project-subject {
   color: var(--green);
   font-size: 16px;
   font-style: normal;
+  text-align: right;
 }
 
 .project h3 {
   font-size: 20px;
   font-weight: 900;
+}
+
+.project-subject,
+.project-card h3 {
+  text-align: right;
+}
+
+.project-item-left .project-card {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.project-item-left .project-subject,
+.project-item-left h3 {
+  text-align: left;
 }

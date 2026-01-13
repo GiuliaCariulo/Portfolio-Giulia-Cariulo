@@ -6,5 +6,10 @@
   "filter.web": "Ui/Ux & Web Dev",
   "filter.photo": "Photo",
   "filter.video": "Video",
-  "filter.graphism": "Graphisme"
+  "filter.graphism": "Graphisme",
+
+  "filter.education": "Formations",
+  "filter.skills": "Compétences",
+  "filter.experience": "Expériences",
+  "filter.languages": "Langues"
 }
