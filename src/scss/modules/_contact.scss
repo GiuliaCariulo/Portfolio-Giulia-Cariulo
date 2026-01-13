@@ -1,0 +1,13 @@
+.contact ul {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-bottom: 23px;
+  padding-top: 30px;
+}
+
+.contact ul li a {
+  color: var(--green);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
