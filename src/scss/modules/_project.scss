@@ -1,12 +1,17 @@
+.project-flow {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  text-transform: uppercase;
+}
+
 .project-subject {
   color: var(--green);
   font-size: 16px;
   font-style: normal;
-  text-transform: uppercase;
 }
 
 .project h3 {
   font-size: 20px;
   font-weight: 900;
-  text-transform: uppercase;
 }

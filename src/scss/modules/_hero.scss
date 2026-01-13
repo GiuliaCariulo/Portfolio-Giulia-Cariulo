@@ -3,11 +3,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: var(--black);
 }
 
 .hero-title-mobile {
   font-size: 60px;
-  color: var(--black);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +19,7 @@
   display: none;
 }
 
-button.hero-btn {
+a.hero-btn {
   text-transform: uppercase;
   font-weight: 600;
   margin: auto;
@@ -27,4 +27,5 @@ button.hero-btn {
   border-radius: 50px;
   border: 2px solid var(--black);
   background-color: var(--green);
+  text-decoration: none;
 }

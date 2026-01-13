@@ -13,6 +13,10 @@ video {
   display: block;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--white);
   font-family: var(--base-font);
