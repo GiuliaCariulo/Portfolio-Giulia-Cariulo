@@ -8,10 +8,22 @@
   "filter.video": "Video",
   "filter.graphism": "Graphism",
 
+  "cv.download": "Download",
+
   "filter.education": "Education",
   "filter.skills": "Skills",
   "filter.experience": "Experience",
   "filter.languages": "Languages",
 
-  "cv.formations.first.date": "2021-Now"
+  "cv.education.first.date": "2021-Now",
+
+  "cv.skills.first.title": "Software",
+  "cv.skills.second.title": "Web Dev",
+
+  "cv.experience.first": "Photography – Multiple commissions",
+  "cv.experience.second": "Video – FC bulle",
+
+  "cv.education.first.language": "French",
+  "cv.education.second.language": "English",
+  "cv.education.third.language": "Italian"
 }

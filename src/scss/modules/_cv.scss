@@ -7,3 +7,53 @@
   display: flex;
   justify-content: center;
 }
+
+.cv-flow {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cv h3 {
+  color: var(--green);
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.cv em {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.cv p {
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.2px;
+}
+
+.cv p a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.cv-title {
+  position: relative;
+}
+
+button.cv-btn {
+  position: absolute;
+  bottom: 33px;
+  right: 40px;
+  color: var(--green);
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  margin: auto;
+  padding: 7px 30px;
+  border-radius: 50px;
+  border: 2px solid var(--green);
+  background-color: var(--black);
+}
