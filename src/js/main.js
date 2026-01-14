@@ -108,3 +108,7 @@ function toggleMenu() {
 }
 burger.addEventListener("click", toggleMenu);
 menuClose.addEventListener("click", toggleMenu);
+
+// __________________________________________________________________________________________________
+
+// CV SWIPER
