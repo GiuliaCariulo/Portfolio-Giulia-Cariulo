@@ -1,0 +1,31 @@
+.cv-tabs {
+  width: 100vw;
+  height: 500px;
+  position: relative;
+  border: 3px solid rgb(0, 0, 0);
+  background-color: aqua;
+}
+
+.tabs-slide {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: 3px solid rgb(255, 0, 212);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  right: -101%;
+}
+
+#tabs-slide-1 {
+  background-color: rgb(108, 78, 30);
+}
+#tabs-slide-2 {
+  background-color: rgb(231, 33, 211);
+}
+
+.tabs-slide-active {
+  right: 0;
+}

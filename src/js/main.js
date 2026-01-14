@@ -96,19 +96,37 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 // __________________________________________________________________________________________________
 
-// BURGER MENU
+// // BURGER MENU
 
-var burger = document.querySelector(".menu-burger");
-var menu = document.querySelector(".menu");
-var menuClose = document.querySelector(".menu-close");
+// var burger = document.querySelector(".menu-burger");
+// var menu = document.querySelector(".menu");
+// // var menuClose = document.querySelector(".menu-close");
 
-function toggleMenu() {
-  menu.classList.toggle("is-active");
-  burger.classList.toggle("is-active");
-}
-burger.addEventListener("click", toggleMenu);
-menuClose.addEventListener("click", toggleMenu);
+// function toggleMenu() {
+//   menu.classList.toggle("is-active");
+//   burger.classList.toggle("is-active");
+// }
+// burger.addEventListener("click", toggleMenu);
+// // menuClose.addEventListener("click", toggleMenu);
 
-// __________________________________________________________________________________________________
+// // __________________________________________________________________________________________________
 
 // CV SWIPER
+
+document.querySelector(".tabs").addEventListener("click", (e) => {
+  const btn = e.target.closest("[data-target]");
+  if (!btn) return;
+
+  const target = btn.dataset.target;
+
+  document
+    .querySelectorAll("[data-target]")
+    .forEach((b) => b.classList.remove("tabs-slide-active"));
+
+  document
+    .querySelectorAll(".tabs-slide")
+    .forEach((p) => p.classList.remove("tabs-slide-active"));
+
+  btn.classList.add("tabs-slide-active");
+  document.getElementById(target).classList.add("tabs-slide-active");
+});
