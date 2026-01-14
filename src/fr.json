@@ -1,4 +1,9 @@
 {
+  "menu.home": "Accuei",
+  "menu.project": "Projets",
+  "menu.me": "Moi",
+  "menu.contact": "Contactez-moi",
+
   "hero.btn": "Projets",
   "project.title": "Projets",
 
