@@ -8,22 +8,24 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <header id="home">
+    <header>
       <a href="#home"
         ><img
           src="img/mascott-face-black.png?as=webp&width=70"
           alt="the mascott's portfolio face"
       /></a>
-      <div class="lang-btn">
-        <button class="lang-switch" data-lang="fr">fr |</button>
+      <div class="navbar-right">
+        <div class="lang-btn">
+          <button class="lang-switch" data-lang="fr">fr |</button>
 
-        <button class="lang-switch" data-lang="en">en</button>
+          <button class="lang-switch" data-lang="en">en</button>
+        </div>
+        <button class="menu-burger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </button>
       </div>
-      <button class="menu-burger">
-        <div></div>
-        <div></div>
-        <div></div>
-      </button>
       <nav class="menu">
         <ul>
           <li>
@@ -39,7 +41,7 @@
       </nav>
     </header>
     <main>
-      <section class="hero">
+      <section id="home" class="hero">
         <h1 class="hero-title-mobile">
           Portfolio
           <img

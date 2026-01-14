@@ -18,7 +18,16 @@ body {
 }
 
 header {
-  position: absolute;
+  width: 100vw;
+  padding: 20px 35px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--green);
+  z-index: 1;
 }
 
 section {
