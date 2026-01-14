@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 // CV SWIPER
 
-document.querySelector(".tabs").addEventListener("click", (e) => {
+document.querySelector(".cv-tabs").addEventListener("click", (e) => {
   const btn = e.target.closest("[data-target]");
   if (!btn) return;
 

@@ -6,16 +6,25 @@
 .cv-title {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
-.cv-flow {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+button.cv-btn {
+  position: absolute;
+  bottom: 33px;
+  right: 40px;
+  color: var(--green);
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  margin: auto;
+  padding: 7px 30px;
+  border-radius: 50px;
+  border: 2px solid var(--green);
+  background-color: var(--black);
 }
 
-.cv h3 {
+.cv h4 {
   color: var(--green);
   font-size: 20px;
   font-weight: 300;
@@ -39,21 +48,23 @@
   text-underline-offset: 3px;
 }
 
-.cv-title {
-  position: relative;
+.cv-tabs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-button.cv-btn {
-  position: absolute;
-  bottom: 33px;
-  right: 40px;
-  color: var(--green);
-  text-transform: uppercase;
-  font-weight: 600;
-  text-decoration: none;
-  margin: auto;
-  padding: 7px 30px;
-  border-radius: 50px;
-  border: 2px solid var(--green);
+.cv-tabs button {
   background-color: var(--black);
+  border: none;
+}
+
+.cv-tabs h3 {
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--green);
+  margin-bottom: 4px;
 }
