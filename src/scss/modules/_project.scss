@@ -1,3 +1,5 @@
+// Project sur index
+
 .project-flow {
   display: flex;
   flex-direction: column;
@@ -29,6 +31,10 @@
   text-align: right;
 }
 
+.project-item a {
+  text-decoration: none;
+}
+
 .project-item-left .project-card {
   flex-direction: row-reverse;
   justify-content: flex-end;
@@ -37,4 +43,50 @@
 .project-item-left .project-subject,
 .project-item-left h3 {
   text-align: left;
+}
+
+// Project sur page de projet
+
+.project-page h1 {
+  padding: 30px 0;
+}
+
+.project-page a,
+.project-page h2 {
+  text-align: left;
+  color: var(--green);
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 0;
+  text-decoration: none;
+}
+
+.project-page h2 {
+  padding: 30px 0 10px;
+}
+
+.project-page a p {
+  display: inline;
+  margin-left: 5px;
+}
+
+.project-page-top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.project-page-preview {
+  padding-top: 60px;
+}
+
+.project-page-preview a {
+  text-align: right;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.project-page img {
+  width: 100%;
 }
