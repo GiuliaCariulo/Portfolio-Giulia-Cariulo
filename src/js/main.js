@@ -96,18 +96,20 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 // __________________________________________________________________________________________________
 
-// // BURGER MENU
+// BURGER MENU
 
-// var burger = document.querySelector(".menu-burger");
-// var menu = document.querySelector(".menu");
-// // var menuClose = document.querySelector(".menu-close");
+var burger = document.querySelector(".menu-burger");
+var menu = document.querySelector(".menu");
+var menuItems = document.querySelectorAll(".menu-item");
 
-// function toggleMenu() {
-//   menu.classList.toggle("is-active");
-//   burger.classList.toggle("is-active");
-// }
-// burger.addEventListener("click", toggleMenu);
-// // menuClose.addEventListener("click", toggleMenu);
+function toggleMenu() {
+  menu.classList.toggle("is-active");
+  burger.classList.toggle("is-active");
+}
+burger.addEventListener("click", toggleMenu);
+menuItems.forEach(function (menuItem) {
+  menuItem.addEventListener("click", toggleMenu);
+});
 
 // // __________________________________________________________________________________________________
 
