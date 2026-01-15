@@ -121,12 +121,12 @@ document.querySelector(".cv-tabs").addEventListener("click", (e) => {
 
   document
     .querySelectorAll("[data-target]")
-    .forEach((b) => b.classList.remove("tabs-slide-active"));
+    .forEach((b) => b.classList.remove("cv-tabs-slide-active"));
 
   document
-    .querySelectorAll(".tabs-slide")
-    .forEach((p) => p.classList.remove("tabs-slide-active"));
+    .querySelectorAll(".cv-tabs-slide")
+    .forEach((p) => p.classList.remove("cv-tabs-slide-active"));
 
-  btn.classList.add("tabs-slide-active");
-  document.getElementById(target).classList.add("tabs-slide-active");
+  btn.classList.add("cv-tabs-slide-active");
+  document.getElementById(target).classList.add("cv-tabs-slide-active");
 });

@@ -7,96 +7,108 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <div class="cv">
+    <section class="cv">
       <div class="cv-flow">
         <div class="cv-tabs">
-          <button data-target="tabs-slide-1"><h3>Formations</h3></button>
-          <button data-target="tabs-slide-2"><h3>Compétences</h3></button>
-          <button data-target="tabs-slide-3"><h3>Expérience</h3></button>
-          <button data-target="tabs-slide-4"><h3>Languages</h3></button>
+          <button data-target="cv-tabs-slide-1"><h3>Formations</h3></button>
+          <button data-target="cv-tabs-slide-2"><h3>Compétences</h3></button>
+          <button data-target="cv-tabs-slide-3"><h3>Expérience</h3></button>
+          <button data-target="cv-tabs-slide-4"><h3>Languages</h3></button>
         </div>
 
-        <div id="tabs-slide-1" class="tabs-slide tabs-slide-active">
-          <div>
-            <h4 data-translation="cv.education.first.date">2021-Maintenant</h4>
-            <p>
-              CFC Interactive Media Designer, avec maturité professionnelle
-              intégrée eikon
-            </p>
-          </div>
-          <div>
-            <h4>2020-2021</h4>
-            <p>
-              CFC Interactive Media Designer, avec maturité professionnelle
-              intégrée eikon
-            </p>
-          </div>
-        </div>
-        <div id="tabs-slide-2" class="tabs-slide">
-          <div>
-            <h4 data-translation="cv.skills.first.title">Logiciels</h4>
-            <ul>
-              <li>Adobe Creative Cloud</li>
-              <li>Figma</li>
-              <li>Visual Studio Code</li>
-            </ul>
-          </div>
-          <div>
-            <h4 data-translation="cv.skills.second.title">Web Dev</h4>
-            <ul>
-              <li>HTML / CSS / JS</li>
-              <li>Github</li>
-              <li>Cyberduck et always data</li>
-              <li>GSAP</li>
-              <li>Bootstrap</li>
-            </ul>
+        <div id="cv-tabs-slide-1" class="cv-tabs-slide cv-tabs-slide-active">
+          <div class="cv-tabs-slide-flex">
+            <div>
+              <h4 data-translation="cv.education.first.date">
+                2021-Maintenant
+              </h4>
+              <p>
+                CFC Interactive Media Designer, avec maturité professionnelle
+                intégrée eikon
+              </p>
+            </div>
+            <div>
+              <h4>2020-2021</h4>
+              <p>
+                CFC Interactive Media Designer, avec maturité professionnelle
+                intégrée eikon
+              </p>
+            </div>
           </div>
         </div>
-        <div id="tabs-slide-3" class="tabs-slide">
-          <div>
-            <h4>
-              2022-2025 |
-              <em data-translation="cv.experience.first"
-                >Photographie – Multiples mandats</em
-              >
-            </h4>
-            <p>
-              J’ai eu le plaisir de travailler dans divers contextes : mariage,
-              pièce de théâtre, studio, reportage, etc. Vous pouvez voir mon
-              travail dans <a href="brouillon.html">Photo</a> ou sur mon
-              <a href="https://www.instagram.com/n.im_is/">Instagram</a>.
-            </p>
-          </div>
-          <div>
-            <h4>
-              2022-2025 |
-              <em data-translation="cv.experience.second">Video – FC bulle</em>
-            </h4>
-            <p>
-              En collaboration avec
-              <a href="https://www.instagram.com/eatsomeclementines/"
-                >Clémentine Couchet</a
-              >, nous avons réalisé la vidéo promotionnelle du club de foot FC
-              Bulle
-            </p>
+        <div id="cv-tabs-slide-2" class="cv-tabs-slide">
+          <div class="cv-tabs-slide-flex">
+            <div>
+              <h4 data-translation="cv.skills.first.title">Logiciels</h4>
+              <ul>
+                <li>Adobe Creative Cloud</li>
+                <li>Figma</li>
+                <li>Visual Studio Code</li>
+              </ul>
+            </div>
+            <div>
+              <h4 data-translation="cv.skills.second.title">Web Dev</h4>
+              <ul>
+                <li>HTML / CSS / JS</li>
+                <li>Github</li>
+                <li>Cyberduck et always data</li>
+                <li>GSAP</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div id="tabs-slide-4" class="tabs-slide">
-          <div>
-            <h4 data-translation="cv.education.first.language">Français</h4>
-            <p>Langue maternelle</p>
+        <div id="cv-tabs-slide-3" class="cv-tabs-slide">
+          <div class="cv-tabs-slide-flex">
+            <div>
+              <h4>
+                2022-2025 |
+                <em data-translation="cv.experience.first"
+                  >Photographie – Multiples mandats</em
+                >
+              </h4>
+              <p>
+                J’ai eu le plaisir de travailler dans divers contextes :
+                mariage, pièce de théâtre, studio, reportage, etc. Vous pouvez
+                voir mon travail dans <a href="brouillon.html">Photo</a> ou sur
+                mon <a href="https://www.instagram.com/n.im_is/">Instagram</a>.
+              </p>
+            </div>
+            <div>
+              <h4>
+                2022-2025 |
+                <em data-translation="cv.experience.second"
+                  >Video – FC bulle</em
+                >
+              </h4>
+              <p>
+                En collaboration avec
+                <a href="https://www.instagram.com/eatsomeclementines/"
+                  >Clémentine Couchet</a
+                >, nous avons réalisé la vidéo promotionnelle du club de foot FC
+                Bulle
+              </p>
+            </div>
           </div>
-          <div>
-            <h4 data-translation="cv.education.second.language">Anglais</h4>
-            <p>B2 (professionnel)</p>
-          </div>
-          <div>
-            <h4 data-translation="cv.education.third.language">Italien</h4>
-            <p>Niveau de conversation de base (appris par expérience)</p>
+        </div>
+        <div id="cv-tabs-slide-4" class="cv-tabs-slide">
+          <div class="cv-tabs-slide-flex">
+            <div>
+              <h4 data-translation="cv.education.first.language">Français</h4>
+              <p>Langue maternelle</p>
+            </div>
+            <div>
+              <h4 data-translation="cv.education.second.language">Anglais</h4>
+              <p>B2 (professionnel)</p>
+            </div>
+            <div>
+              <h4 data-translation="cv.education.third.language">Italien</h4>
+              <p>Niveau de conversation de base (appris par expérience)</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <script src="js/main.js" type="module"></script>
   </body>
