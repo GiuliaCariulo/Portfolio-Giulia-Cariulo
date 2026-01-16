@@ -3,6 +3,7 @@
 .project-cards {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
   gap: 70px;
   text-transform: uppercase;
 }
@@ -14,11 +15,14 @@
   justify-content: flex-end;
 }
 
+.project-card.hide {
+  display: none;
+}
+
 .project-subject {
   color: var(--green);
   font-size: 16px;
   font-style: normal;
-  text-align: right;
 }
 
 .project h3 {
@@ -27,17 +31,26 @@
 }
 
 .project-item a {
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
   text-decoration: none;
 }
 
-.project-item-left .project-card {
+.project-item-left a {
   flex-direction: row-reverse;
-  justify-content: flex-end;
 }
 
-.project-item-left .project-subject,
-.project-item-left h3 {
+.project-item a div {
+  text-align: right;
+}
+
+.project-item-left a div {
   text-align: left;
+}
+
+.project-items-left {
+  align-self: flex-start;
 }
 
 // Project sur page de projet
