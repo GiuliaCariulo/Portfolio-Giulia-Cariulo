@@ -1,6 +1,6 @@
-// Project sur index
+// Project sur index.html
 
-.project-flow {
+.project-cards {
   display: flex;
   flex-direction: column;
   gap: 70px;
@@ -24,11 +24,6 @@
 .project h3 {
   font-size: 20px;
   font-weight: 900;
-}
-
-.project-subject,
-.project-card h3 {
-  text-align: right;
 }
 
 .project-item a {

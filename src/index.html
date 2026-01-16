@@ -46,7 +46,7 @@
       </nav>
     </header>
     <main>
-      <section><a href="test.html">Test filtres dynamiques</a></section>
+      <section><a href="test.html">Page test</a></section>
       <section id="home" class="hero">
         <h1 class="hero-title-mobile">
           Portfolio
@@ -69,22 +69,58 @@
         <div class="line"></div>
         <h2 data-translation="project.title">Projets</h2>
         <div class="line"></div>
-        <div class="filter">
-          <div data-translation="filter.all" class="filter-selected">Tout</div>
-          <div data-translation="filter.web" class="filter-default">
-            Ui/Ux & Web Dev
+        <!-- ggg -->
+        <!-- hh -->
+        <!-- filters test -->
+        <form class="filter">
+          <div class="filter-input">
+            <input type="radio" name="type" id="all" value="" checked />
+            <label for="all" class="filter-label">Tous</label>
           </div>
-          <div data-translation="filter.photo" class="filter-default">
-            Photo
+          <div class="filter-input">
+            <input
+              type="radio"
+              name="type"
+              id="frontend"
+              value="Frontend Development"
+            />
+            <label for="frontend" class="filter-label">Frontend</label>
           </div>
-          <div data-translation="filter.video" class="filter-default">
-            Video
+          <div class="filter-input">
+            <input type="radio" name="type" id="graphisme" value="Graphisme" />
+            <label for="graphisme" class="filter-label">Graphisme</label>
           </div>
-          <div data-translation="filter.graphism" class="filter-default">
-            Graphisme
+          <div class="filter-input">
+            <input type="radio" name="type" id="uiux" value="UI / UX" />
+            <label for="uiux" class="filter-label">UI / UX</label>
+          </div>
+        </form>
+
+        <!-- CARTES : Chaque carte a son data-type -->
+        <div class="project-cards">
+          <div class="project-card" data-type="Frontend Development">
+            <div class="project-item project-item-left">
+              <a href="projects-page/project-fcbulle.html">
+                <include src="project-card.html">
+                  { "projectsubject": "Vidéo", "projecttitle": "FC Bulle",
+                  "projectimage": "img/substitution.png", "projectimagealt":
+                  "View of the FC Bulle video's project" }
+                </include></a
+              >
+            </div>
+          </div>
+          <div class="project-card" data-type="UI / UX">
+            <h2>App Mobile Banking</h2>
+            <p>UI / UX</p>
+          </div>
+          <div class="project-card" data-type="Graphisme">
+            <h2>Identité Visuelle</h2>
+            <p>Graphisme</p>
           </div>
         </div>
-        <div class="project-flow">
+        <!-- ggg -->
+
+        <!-- <div class="project-flow">
           <div class="project-item project-item-left">
             <a href="projects-page/project-fcbulle.html">
               <include src="project-card.html">
@@ -97,40 +133,41 @@
           <div class="project-item">
             <a href="">
               <include src="project-card.html">
-              { "projectsubject": "Substitution", "projecttitle":
-              "Substitution", "projectimage": "img/substitution.png",
-              "projectimagealt": "View of the Substitution video's project" }
-            </include>
-          </div>
-          <div class="project-item project-item-left">
+                { "projectsubject": "Substitution", "projecttitle":
+                "Substitution", "projectimage": "img/substitution.png",
+                "projectimagealt": "View of the Substitution video's project" }
+              </include>
             </a>
+          </div>
+
+          <div class="project-item project-item-left">
             <a href="">
               <include src="project-card.html">
-              { "projectsubject": "Substitution", "projecttitle":
-              "Substitution", "projectimage": "img/substitution.png",
-              "projectimagealt": "View of the Substitution video's project" }
-            </include>
+                { "projectsubject": "Substitution", "projecttitle":
+                "Substitution", "projectimage": "img/substitution.png",
+                "projectimagealt": "View of the Substitution video's project" }
+              </include>
             </a>
           </div>
           <div class="project-item">
             <a href="">
               <include src="project-card.html">
-              { "projectsubject": "Substitution", "projecttitle":
-              "Substitution", "projectimage": "img/substitution.png",
-              "projectimagealt": "View of the Substitution video's project" }
-            </include>
+                { "projectsubject": "Substitution", "projecttitle":
+                "Substitution", "projectimage": "img/substitution.png",
+                "projectimagealt": "View of the Substitution video's project" }
+              </include>
             </a>
           </div>
           <div class="project-item project-item-left">
             <a href="">
               <include src="project-card.html">
-              { "projectsubject": "Substitution", "projecttitle":
-              "Substitution", "projectimage": "img/substitution.png",
-              "projectimagealt": "View of the Substitution video's project" }
-            </include>
+                { "projectsubject": "Substitution", "projecttitle":
+                "Substitution", "projectimage": "img/substitution.png",
+                "projectimagealt": "View of the Substitution video's project" }
+              </include>
             </a>
           </div>
-        </div>
+        </div>  -->
       </section>
       <section class="cv">
         <div class="line"></div>

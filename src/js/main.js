@@ -137,25 +137,22 @@ document.querySelector(".tabs").addEventListener("click", (e) => {
 
 // Dynamic filters
 
-const cards = document.querySelectorAll(".card");
+const cards = document.querySelectorAll(".project-card");
 const filters = document.querySelectorAll("input[name='type']");
 
 filters.forEach((filter) => {
   filter.addEventListener("click", function () {
-    const value = filter.value; // Récupère la valeur du filtre cliqué
+    const value = filter.value;
 
     cards.forEach((card) => {
-      const type = card.getAttribute("data-type"); // Récupère la catégorie de la carte
-
+      const type = card.getAttribute("data-type");
       if (value === "") {
-        // Si "Tous" est sélectionné (value vide)
         card.classList.remove("hide");
       } else {
-        // Sinon, comparer avec la catégorie de la carte
         if (type === value) {
-          card.classList.remove("hide"); // Montrer
+          card.classList.remove("hide");
         } else {
-          card.classList.add("hide"); // Cacher
+          card.classList.add("hide");
         }
       }
     });
