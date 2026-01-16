@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Portfolio – Giulia Cariulo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/ofn1ped.css" />
+    <link rel="stylesheet" href="scss/main.scss" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Portfolio Projets</h1>
+
+      <!-- FILTRES : Boutons radio groupés -->
+      <form>
+        <div class="input-wrapper">
+          <input type="radio" name="type" id="all" value="" checked />
+          <label for="all" class="label">Tous</label>
+        </div>
+        <div class="input-wrapper">
+          <input
+            type="radio"
+            name="type"
+            id="frontend"
+            value="Frontend Development"
+          />
+          <label for="frontend" class="label">Frontend</label>
+        </div>
+        <div class="input-wrapper">
+          <input type="radio" name="type" id="graphisme" value="Graphisme" />
+          <label for="graphisme" class="label">Graphisme</label>
+        </div>
+        <div class="input-wrapper">
+          <input type="radio" name="type" id="uiux" value="UI / UX" />
+          <label for="uiux" class="label">UI / UX</label>
+        </div>
+      </form>
+
+      <!-- CARTES : Chaque carte a son data-type -->
+      <div class="cards-wrapper">
+        <div class="card" data-type="Frontend Development">
+          <h2>Site E-commerce</h2>
+          <p>Frontend Development</p>
+        </div>
+        <div class="card" data-type="UI / UX">
+          <h2>App Mobile Banking</h2>
+          <p>UI / UX</p>
+        </div>
+        <div class="card" data-type="Graphisme">
+          <h2>Identité Visuelle</h2>
+          <p>Graphisme</p>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
+
+<!-- 
+<section id="project" class="project">
+        <div class="line"></div>
+        <h2 data-translation="project.title">Projets</h2>
+        <div class="line"></div>
+        <div class="filter">
+          <div data-translation="filter.all" class="filter-selected">Tout</div>
+          <div data-translation="filter.web" class="filter-default">
+            Ui/Ux & Web Dev
+          </div>
+          <div data-translation="filter.photo" class="filter-default">
+            Photo
+          </div>
+          <div data-translation="filter.video" class="filter-default">
+            Video
+          </div>
+          <div data-translation="filter.graphism" class="filter-default">
+            Graphisme
+          </div>
+        </div>
+        <div class="project-flow">
+          <div class="project-item project-item-left">
+            <a href="projects-page/project-fcbulle.html">
+              <include src="project-card.html">
+                { "projectsubject": "Vidéo", "projecttitle": "FC Bulle",
+                "projectimage": "img/substitution.png", "projectimagealt": "View
+                of the FC Bulle video's project" }
+              </include></a
+            >
+          </div>
+          <div class="project-item">
+            <a href="">
+              <include src="project-card.html">
+              { "projectsubject": "Substitution", "projecttitle":
+              "Substitution", "projectimage": "img/substitution.png",
+              "projectimagealt": "View of the Substitution video's project" }
+            </include>
+          </div>
+          <div class="project-item project-item-left">
+            </a>
+            <a href="">
+              <include src="project-card.html">
+              { "projectsubject": "Substitution", "projecttitle":
+              "Substitution", "projectimage": "img/substitution.png",
+              "projectimagealt": "View of the Substitution video's project" }
+            </include>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="">
+              <include src="project-card.html">
+              { "projectsubject": "Substitution", "projecttitle":
+              "Substitution", "projectimage": "img/substitution.png",
+              "projectimagealt": "View of the Substitution video's project" }
+            </include>
+            </a>
+          </div>
+          <div class="project-item project-item-left">
+            <a href="">
+              <include src="project-card.html">
+              { "projectsubject": "Substitution", "projecttitle":
+              "Substitution", "projectimage": "img/substitution.png",
+              "projectimagealt": "View of the Substitution video's project" }
+            </include>
+            </a>
+          </div>
+        </div>
+      </section> -->
