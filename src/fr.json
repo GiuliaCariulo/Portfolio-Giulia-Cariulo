@@ -10,17 +10,19 @@
   "filter.all": "Tout",
   "filter.web": "Ui/Ux & Web Dev",
   "filter.photo": "Photo",
-  "filter.video": "Video",
+  "filter.video": "Vidéo",
   "filter.graphism": "Graphisme",
 
   "cv.download": "Télécharger",
 
-  "filter.education": "Formations",
-  "filter.skills": "Compétences",
-  "filter.experience": "Expérience",
-  "filter.languages": "Langues",
+  "cv-tab.education": "Formations",
+  "cv-tab.skills": "Compétences",
+  "cv-tab.experience": "Expérience",
+  "cv-tab.languages": "Langues",
 
   "cv.education.first.date": "2021-Maintenant",
+  "cv.education.first.text": "CFC Interactive Media Designer avec maturité professionnelle intégrée, EIKON",
+  "cv.education.second.text": "Année préparatoire artistique, EIKON",
 
   "cv.skills.first.title": "Logiciels",
   "cv.skills.second.title": "Web Dev",

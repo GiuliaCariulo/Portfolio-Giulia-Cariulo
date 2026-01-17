@@ -15,12 +15,14 @@
 
   "cv.download": "Download",
 
-  "filter.education": "Education",
-  "filter.skills": "Skills",
-  "filter.experience": "Experience",
-  "filter.languages": "Languages",
+  "cv-tab.education": "Education",
+  "cv-tab.skills": "Skills",
+  "cv-tab.experience": "Experience",
+  "cv-tab.languages": "Languages",
 
   "cv.education.first.date": "2021-Now",
+  "cv.education.first.text": "Federal VET Diploma in Interactive Media Design with integrated vocational baccalaureate, EIKON",
+  "cv.education.second.text": "Foundation Year in Applied Arts, EIKON",
 
   "cv.skills.first.title": "Software",
   "cv.skills.second.title": "Web Dev",

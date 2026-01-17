@@ -46,7 +46,6 @@
       </nav>
     </header>
     <main>
-      <section><a href="test.html">Page test</a></section>
       <section id="home" class="hero">
         <h1 class="hero-title-mobile">
           Portfolio
@@ -72,23 +71,42 @@
         <form class="filter">
           <div class="filter-input">
             <input type="radio" name="type" id="all" value="" checked />
-            <label for="all" class="filter-label">Tous</label>
+            <label for="all" class="filter-label" data-translation="filter.all"
+              >Tous</label
+            >
           </div>
           <div class="filter-input">
             <input type="radio" name="type" id="web" value="Ui/Ux & Web Dev" />
-            <label for="web" class="filter-label">Ui/Ux & Web Dev</label>
+            <label for="web" class="filter-label" data-translation="filter.web"
+              >Ui/Ux & Web Dev</label
+            >
           </div>
           <div class="filter-input">
             <input type="radio" name="type" id="photo" value="Photo" />
-            <label for="photo" class="filter-label">Photo</label>
+            <label
+              for="photo"
+              class="filter-label"
+              data-translation="filter.photo"
+              >Photo</label
+            >
           </div>
           <div class="filter-input">
             <input type="radio" name="type" id="video" value="Video" />
-            <label for="video" class="filter-label">Video</label>
+            <label
+              for="video"
+              class="filter-label"
+              data-translation="filter.video"
+              >Video</label
+            >
           </div>
           <div class="filter-input">
             <input type="radio" name="type" id="graphism" value="Graphism" />
-            <label for="graphism" class="filter-label">Graphisme</label>
+            <label
+              for="graphism"
+              class="filter-label"
+              data-translation="filter.graphism"
+              >Graphisme</label
+            >
           </div>
         </form>
         <div class="project-cards">
@@ -96,8 +114,11 @@
             <div class="project-item">
               <a href="projects-page/project-fcbulle.html">
                 <div>
-                  <div class="project-subject">video</div>
-                  <h3>FC Bullen</h3>
+                  <div
+                    class="project-subject"
+                    data-translation="filter.web"
+                  ></div>
+                  <h3>web</h3>
                 </div>
                 <img
                   src="img/substitution.png?as=webp&width=200"
@@ -110,8 +131,11 @@
             <div class="project-item project-item-left">
               <a href="projects-page/project-fcbulle.html">
                 <div>
-                  <div class="project-subject">video</div>
-                  <h3>FC Bullen</h3>
+                  <div
+                    class="project-subject"
+                    data-translation="filter.photo"
+                  ></div>
+                  <h3>Photo</h3>
                 </div>
                 <img
                   src="img/substitution.png?as=webp&width=200"
@@ -124,7 +148,10 @@
             <div class="project-item">
               <a href="projects-page/project-fcbulle.html">
                 <div>
-                  <div class="project-subject">video</div>
+                  <div
+                    class="project-subject"
+                    data-translation="filter.video"
+                  ></div>
                   <h3>FC Bullen</h3>
                 </div>
                 <img
@@ -138,7 +165,10 @@
             <div class="project-item project-item-left">
               <a href="projects-page/project-fcbulle.html">
                 <div>
-                  <div class="project-subject">video</div>
+                  <div
+                    class="project-subject"
+                    data-translation="filter.graphism"
+                  ></div>
                   <h3>FC Bullen</h3>
                 </div>
                 <img
@@ -164,10 +194,18 @@
         <div class="line"></div>
         <div class="cv-flow">
           <div class="tabs">
-            <button data-target="tabs-slide-1"><h3>Formations</h3></button>
-            <button data-target="tabs-slide-2"><h3>Compétences</h3></button>
-            <button data-target="tabs-slide-3"><h3>Expérience</h3></button>
-            <button data-target="tabs-slide-4"><h3>Languages</h3></button>
+            <button data-target="tabs-slide-1">
+              <h3 data-translation="cv-tab.education">Formations</h3>
+            </button>
+            <button data-target="tabs-slide-2">
+              <h3 data-translation="cv-tab.skills">Compétences</h3>
+            </button>
+            <button data-target="tabs-slide-3">
+              <h3 data-translation="cv-tab.experience">Expérience</h3>
+            </button>
+            <button data-target="tabs-slide-4">
+              <h3 data-translation="cv-tab.languages">Languages</h3>
+            </button>
           </div>
 
           <div id="tabs-slide-1" class="tabs-slide tabs-slide-active">
@@ -176,16 +214,15 @@
                 <h4 data-translation="cv.education.first.date">
                   2021-Maintenant
                 </h4>
-                <p>
+                <p data-translation="cv.education.first.text">
                   CFC Interactive Media Designer, avec maturité professionnelle
                   intégrée eikon
                 </p>
               </div>
               <div>
                 <h4>2020-2021</h4>
-                <p>
-                  CFC Interactive Media Designer, avec maturité professionnelle
-                  intégrée eikon
+                <p data-translation="cv.education.second.text">
+                  Année préparatoire artistique, EIKON
                 </p>
               </div>
             </div>
