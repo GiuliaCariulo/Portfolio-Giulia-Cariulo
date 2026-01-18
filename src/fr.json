@@ -21,8 +21,18 @@
   "cv-tab.languages": "Langues",
 
   "cv.education.first.date": "2021-Maintenant",
-  "cv.education.first.text": "CFC Interactive Media Designer avec maturité professionnelle intégrée, EIKON",
-  "cv.education.second.text": "Année préparatoire artistique, EIKON",
+  "cv.education.first.text.a": "CFC Interactive Media Designer,",
+  "cv.education.first.text.b": "avec maturité professionnelle intégréee",
+  "cv.education.first.text.c": "EIKON",
+
+  "cv.education.second.text.a": "Année préparatoire artistique,",
+  "cv.education.second.text.b": "EIKON",
+
+  "cv.experience.first.text.a": "J’ai eu le plaisir de travailler dans divers contextes : mariage, pièce de théâtre, studio, reportage, etc.",
+  "cv.experience.first.text.b": "Voir mon travail: ",
+
+  "cv.experience.second.text.a": "Nous avons réalisé la vidéo promotionnelle du club de foot FC Bulle",
+  "cv.experience.second.text.b": "En collaboration avec ",
 
   "cv.skills.first.title": "Logiciels",
   "cv.skills.second.title": "Web Dev",
@@ -31,11 +41,15 @@
   "cv.experience.second": "Video – FC bulle",
 
   "cv.education.first.language": "Français",
+  "cv.education.text.first.language": "Langue maternelle",
   "cv.education.second.language": "Anglais",
+  "cv.education.text.second.language": "Niveau B2 (professionnel)",
   "cv.education.third.language": "Italien",
+  "cv.education.text.third.language": "Niveau conversation de base (appris par expérience)",
 
   "me.title": "Moi?",
   "me.apprentice": "Apprentie",
+  "me.text": "Je dois encore l'écrires",
 
   "contact.title": "Contactez-moi",
 

@@ -21,8 +21,18 @@
   "cv-tab.languages": "Languages",
 
   "cv.education.first.date": "2021-Now",
-  "cv.education.first.text": "Federal VET Diploma in Interactive Media Design with integrated vocational baccalaureate, EIKON",
-  "cv.education.second.text": "Foundation Year in Applied Arts, EIKON",
+  "cv.education.first.text.a": "Federal VET Diploma in Interactive Media Design",
+  "cv.education.first.text.b": "with integrated vocational baccalaureate,",
+  "cv.education.first.text.c": "EIKON",
+
+  "cv.education.second.text.a": "Foundation Year in Applied Arts,",
+  "cv.education.second.text.b": "EIKON",
+
+  "cv.experience.first.text.a": "I have had the pleasure of working in a variety of contexts: weddings, theater productions, studios, news reports, etc.",
+  "cv.experience.first.text.b": "See my work: ",
+
+  "cv.experience.second.text.a": "We produced the promotional video for FC Bulle soccer club.",
+  "cv.experience.second.text.b": "In collaboration with ",
 
   "cv.skills.first.title": "Software",
   "cv.skills.second.title": "Web Dev",
@@ -31,11 +41,15 @@
   "cv.experience.second": "Video – FC bulle",
 
   "cv.education.first.language": "French",
+  "cv.education.text.first.language": "Native",
   "cv.education.second.language": "English",
+  "cv.education.text.second.language": "B2 (professional)",
   "cv.education.third.language": "Italian",
+  "cv.education.text.third.language": "Basic conversational level",
 
   "me.title": "Me?",
   "me.apprentice": "Apprentice",
+  "me.text": "I have to do it",
 
   "contact.title": "Contact me",
 
