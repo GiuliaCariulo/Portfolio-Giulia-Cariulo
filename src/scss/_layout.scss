@@ -8,7 +8,7 @@
 
 body {
   background-color: var(--black);
-  padding-top: 20px;
+  padding-top: 1.25rem;
 }
 header,
 .hero,
@@ -18,7 +18,7 @@ footer {
 
 header {
   width: 100vw;
-  padding: 20px 35px;
+  padding: 1.25rem 2rem;
   position: fixed;
   top: 0;
   right: 0;
@@ -30,11 +30,11 @@ header {
 }
 
 section {
-  padding: 0 20px;
-  margin: 60px 0;
+  padding: 0 1.25rem;
+  margin: 3.75rem 0;
   position: relative;
 }
 
 footer {
-  padding: 60px 20px 20px;
+  padding: 3.75rem 1.25rem 1.25rem;
 }

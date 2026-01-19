@@ -20,7 +20,7 @@ html {
 body {
   color: var(--white);
   font-family: var(--base-font);
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 300;
   line-height: 120%;
@@ -36,12 +36,12 @@ h2 {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 
 h2 {
-  font-size: 40px;
-  padding: 30px 0;
+  font-size: 2.5rem;
+  padding: 2rem 0;
 }
 
 li {
@@ -52,7 +52,7 @@ nav a,
 header button {
   color: var(--black);
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 header button {
@@ -70,7 +70,7 @@ footer h2 {
 }
 
 footer p {
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 2rem;
 }

@@ -10,14 +10,14 @@
 
 button.cv-btn {
   position: absolute;
-  bottom: 33px;
+  bottom: 32px;
   right: 40px;
   color: var(--green);
   text-transform: uppercase;
   font-weight: 600;
   text-decoration: none;
   margin: auto;
-  padding: 7px 30px;
+  padding: 8px 32px;
   border-radius: 50px;
   border: 2px solid var(--green);
   background-color: var(--black);
@@ -32,11 +32,11 @@ button.cv-btn {
 .cv h4 {
   // font-family: var(--contrast-font);
   color: var(--green);
-  font-size: 20px;
+  font-size: 1.25rem;
   // font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
-  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
 }
 
 .cv em {

@@ -7,13 +7,12 @@
 }
 
 .hero-title-mobile {
-  font-size: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  margin-top: 40px;
+  gap: 2rem;
+  margin-top: 2.5rem;
 }
 
 .hero-title-desktop {
@@ -23,8 +22,8 @@
 a.hero-btn {
   text-transform: uppercase;
   font-weight: 600;
-  margin-bottom: 60px;
-  padding: 7px 95px;
+  margin-bottom: 3.5rem;
+  padding: 0.5rem 6rem;
   border-radius: 50px;
   border: 2px solid var(--black);
   background-color: var(--green);

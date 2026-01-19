@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
-  margin: 60px 0;
+  gap: 0.5rem;
+  margin: 3.75rem 0;
 }
 
 .tabs button {
@@ -12,7 +12,7 @@
 }
 
 .tabs h3 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -41,7 +41,7 @@
 .tabs-slide-flex {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 2rem;
 }
 
 #tabs-slide-2 ul {

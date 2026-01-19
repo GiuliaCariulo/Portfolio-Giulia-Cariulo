@@ -1,16 +1,18 @@
 .menu-burger {
-  width: 30px;
-  height: 19px;
+  width: 2rem;
+  height: 1.2rem;
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 0.25rem;
 }
 
 .menu-burger div {
-  width: 30px;
-  height: 3px;
+  width: 2rem;
+  height: 0.25rem;
   background-color: var(--black);
-  transition: transform 0.3s, opacity 0.3s;
+  transition:
+    transform 0.3s,
+    opacity 0.3s;
   z-index: 1;
 }
 
@@ -20,7 +22,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 60px 0;
+  padding: 3.75rem 0;
   background-color: var(--black);
   opacity: 0;
   pointer-events: none;
@@ -36,7 +38,7 @@
 }
 
 .menu li {
-  padding: 10px 0;
+  padding: 0.5rem 0;
   border-bottom: 1px solid var(--white);
 }
 
@@ -49,7 +51,7 @@
 }
 
 .menu-burger.is-active div:nth-child(1) {
-  transform: translateY(4px) rotate(45deg);
+  transform: translateY(8px) rotate(45deg);
   background-color: var(--white);
 }
 
