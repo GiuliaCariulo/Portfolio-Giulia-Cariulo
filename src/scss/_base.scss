@@ -27,6 +27,12 @@ body {
   letter-spacing: 0.2px;
 }
 
+@media (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+}
+
 h1,
 h2 {
   font-family: var(--contrast-font);
