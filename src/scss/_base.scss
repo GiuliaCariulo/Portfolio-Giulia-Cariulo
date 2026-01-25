@@ -63,19 +63,10 @@ nav a {
 header button {
   background-color: inherit;
   border: none;
-  // bold wtf
-}
-
-footer {
-  color: var(--black);
-}
-
-footer h2 {
-  text-align: left;
 }
 
 footer p {
+  color: var(--black);
   font-size: 0.75rem;
   text-align: center;
-  margin-top: 2rem;
 }
