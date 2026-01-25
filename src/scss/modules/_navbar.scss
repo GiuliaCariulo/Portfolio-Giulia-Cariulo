@@ -1,6 +1,12 @@
-.navbar-right {
+.navbar-mobile-right {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   gap: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .navbar-mobile-right {
+    display: none;
+  }
 }

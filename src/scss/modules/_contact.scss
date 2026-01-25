@@ -1,12 +1,17 @@
 .contact ul {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
+  gap: 16px;
+  margin-bottom: 24px;
   padding-top: 2rem;
 }
 
 .contact ul li a {
   color: var(--green);
   text-decoration: none;
+}
+
+.contact a,
+.contact {
+  font-size: 16px;
 }
