@@ -1,8 +1,9 @@
 .cv h2 {
-  line-height: 110%;
+  line-height: 120%;
 }
 
 .cv-title {
+  width: 100%;
   display: flex;
   justify-content: center;
   position: relative;
@@ -10,14 +11,11 @@
 
 button.cv-btn {
   position: absolute;
-  bottom: 32px;
-  right: 40px;
-  color: var(--green);
-  text-transform: uppercase;
-  font-weight: 600;
-  text-decoration: none;
-  margin: auto;
-  padding: 8px 32px;
+  bottom: 1.2rem;
+  margin-left: 11.5rem;
+  transform: scale(45%);
+  padding: 2rem 0;
+  padding: 0.75rem 6.5rem;
   border-radius: 50px;
   border: 2px solid var(--green);
   background-color: var(--black);
