@@ -46,7 +46,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   padding: 2rem 0;
 }
 
@@ -54,8 +54,7 @@ li {
   list-style-type: none;
 }
 
-nav a,
-header button {
+nav a {
   color: var(--black);
   text-decoration: none;
   font-size: 1rem;

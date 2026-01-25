@@ -32,13 +32,13 @@
   text-align: center;
 }
 
-.menu a,
-.menu button {
+.menu a {
+  font-size: 1.25rem;
   color: var(--white);
 }
 
 .menu li {
-  padding: 0.5rem 0;
+  padding: 1.5rem 0;
   border-bottom: 1px solid var(--white);
 }
 
