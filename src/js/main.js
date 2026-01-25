@@ -140,12 +140,29 @@ document.querySelector(".tabs").addEventListener("click", (e) => {
 const cards = document.querySelectorAll(".project-card");
 const filters = document.querySelectorAll("input[name='type']");
 
+const styleElements = (elements) => {
+  elements.forEach((element) => {
+    element.classList.remove("project-item-left");
+  });
+
+  const visibleElements = Array.from(elements).filter((element) => {
+    return !element.classList.contains("hide");
+  });
+
+  visibleElements.forEach((element, index) => {
+    if (index % 2 === 0) {
+      element.classList.add("project-item-left");
+    }
+  });
+};
+
 filters.forEach((filter) => {
   filter.addEventListener("click", function () {
     const value = filter.value;
 
     cards.forEach((card) => {
       const type = card.getAttribute("data-type");
+
       if (value === "") {
         card.classList.remove("hide");
       } else {
@@ -156,5 +173,7 @@ filters.forEach((filter) => {
         }
       }
     });
+
+    styleElements(cards);
   });
 });
