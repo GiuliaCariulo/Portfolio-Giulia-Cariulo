@@ -1,3 +1,10 @@
+.contact-flex {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  padding-top: 4rem;
+}
+
 .contact ul {
   display: flex;
   flex-direction: column;
@@ -14,4 +21,10 @@
 .contact a,
 .contact {
   font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .contact-flex {
+    gap: 3rem;
+  }
 }
