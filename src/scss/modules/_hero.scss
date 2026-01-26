@@ -36,5 +36,12 @@ a.hero-btn {
   }
   .hero-title-desktop {
     display: block;
+
+    padding-bottom: 3.5rem;
+  }
+  a.hero-btn {
+    position: absolute;
+    bottom: 5rem;
+    margin: 0 605px 0 0;
   }
 }
