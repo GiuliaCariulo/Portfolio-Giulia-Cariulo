@@ -72,3 +72,10 @@ footer p {
   font-size: 0.75rem;
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  header {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}

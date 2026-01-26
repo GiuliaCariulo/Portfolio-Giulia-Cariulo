@@ -5,6 +5,13 @@
   gap: 1.25rem;
 }
 
+@media (min-width: 768px) {
+  .filter {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
 input[type="radio"] {
   display: none;
 }
