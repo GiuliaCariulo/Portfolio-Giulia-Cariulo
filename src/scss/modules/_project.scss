@@ -30,9 +30,14 @@
   font-weight: 900;
 }
 
+.project-item {
+  width: 100%;
+}
+
 .project-item a {
   width: 100%;
   display: flex;
+  justify-content: flex-end;
   align-items: flex-end;
   gap: 1rem;
   text-decoration: none;
