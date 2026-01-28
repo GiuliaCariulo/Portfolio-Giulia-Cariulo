@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 var burger = document.querySelector(".menu-burger");
 var menu = document.querySelector(".menu");
-var menuItems = document.querySelectorAll(".menu-item");
+var menuItems = document.querySelectorAll(". menu .menu-item");
 
 function toggleMenu() {
   menu.classList.toggle("is-active");
