@@ -51,6 +51,9 @@
 }
 
 @media (min-width: 768px) {
+  .tabs h3 {
+    font-size: 1.5rem;
+  }
   .tabs {
     flex-direction: row;
     justify-content: center;

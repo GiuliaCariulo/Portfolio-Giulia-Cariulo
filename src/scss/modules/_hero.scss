@@ -21,7 +21,7 @@
 
 @media (min-width: 650px) {
   .hero-title-mobile img {
-    transform: scale(1.5);
+    width: 510px;
   }
 }
 
@@ -46,8 +46,10 @@ a.hero-btn {
   }
   .hero-title-desktop {
     display: block;
-    padding-bottom: 3.5rem;
-    transform: scale(0.95);
+    padding: 2.5rem 0 3.5rem;
+  }
+  .hero-title-desktop img {
+    width: 800px;
   }
   a.hero-btn {
     position: absolute;
@@ -58,6 +60,9 @@ a.hero-btn {
 
 @media (min-width: 1300px) {
   .hero-title-desktop {
-    transform: scale(1.25);
+    padding-bottom: 5rem;
+  }
+  .hero-title-desktop img {
+    width: 1000px;
   }
 }

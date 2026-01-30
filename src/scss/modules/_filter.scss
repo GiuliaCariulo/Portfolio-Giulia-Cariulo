@@ -5,13 +5,6 @@
   gap: 1.25rem;
 }
 
-@media (min-width: 768px) {
-  .filter {
-    flex-direction: row;
-    justify-content: center;
-  }
-}
-
 input[type="radio"] {
   display: none;
 }
@@ -43,4 +36,14 @@ input[type="radio"]:checked + .filter-label {
 
 .filter-input {
   padding: 0;
+}
+
+@media (min-width: 768px) {
+  .filter-input label {
+    font-size: 1.5rem;
+  }
+  .filter {
+    flex-direction: row;
+    justify-content: center;
+  }
 }

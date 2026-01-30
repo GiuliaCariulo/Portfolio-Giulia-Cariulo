@@ -89,7 +89,7 @@
   width: 100px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .menu-burger,
   .menu-mobile-home {
     display: none;
@@ -102,12 +102,6 @@
   }
   .menu-desktop ul {
     display: flex;
-    gap: 2rem;
-  }
-}
-
-@media (min-width: 992px) {
-  .menu-desktop ul {
     gap: 3rem;
   }
   .menu-desktop-home img {
