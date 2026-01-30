@@ -8,7 +8,7 @@
 
 .menu-burger div {
   width: 2rem;
-  height: 0.25rem;
+  height: 0.2rem;
   background-color: var(--black);
   transition:
     transform 0.3s,
@@ -42,6 +42,19 @@
   border-bottom: 1px solid var(--white);
 }
 
+.menu-mobile-home img {
+  width: 70px;
+}
+
+@media (min-width: 650px) {
+  .menu-burger div {
+    height: 0.25rem;
+  }
+  .menu-mobile-home img {
+    width: 100px;
+  }
+}
+
 // is-active –––––––––––––––––––––––––––––––––––––––
 
 .menu.is-active {
@@ -72,6 +85,10 @@
   display: none;
 }
 
+.menu-desktop-home img {
+  width: 100px;
+}
+
 @media (min-width: 768px) {
   .menu-burger,
   .menu-mobile-home {
@@ -92,5 +109,8 @@
 @media (min-width: 992px) {
   .menu-desktop ul {
     gap: 3rem;
+  }
+  .menu-desktop-home img {
+    width: 120px;
   }
 }

@@ -15,8 +15,12 @@
   padding-top: 2.5rem;
 }
 
+.hero-title-mobile img {
+  width: 340px;
+}
+
 @media (min-width: 650px) {
-  .hero-title-mobile {
+  .hero-title-mobile img {
     transform: scale(1.5);
   }
 }

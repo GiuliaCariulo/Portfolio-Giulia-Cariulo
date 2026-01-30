@@ -59,5 +59,13 @@
 @media (min-width: 768px) {
   .me img {
     display: block;
+    width: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  .me img {
+    display: block;
+    width: 220px;
   }
 }

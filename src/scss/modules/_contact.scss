@@ -23,6 +23,16 @@
   font-size: 16px;
 }
 
+.contact-mask {
+  width: 150px;
+}
+
+@media (min-width: 650px) {
+  .contact-mask {
+    width: 200px;
+  }
+}
+
 @media (min-width: 768px) {
   .contact-flex {
     gap: 3rem;
