@@ -27,12 +27,6 @@ body {
   letter-spacing: 0.2px;
 }
 
-@media (min-width: 768px) {
-  body {
-    font-size: 18px;
-  }
-}
-
 @media (min-width: 992px) {
   body {
     font-size: 20px;
@@ -73,9 +67,20 @@ footer p {
   text-align: center;
 }
 
+@media (min-width: 650px) {
+  h2 {
+    font-size: 3rem;
+  }
+}
 @media (min-width: 768px) {
   header {
     font-weight: 600;
     text-transform: uppercase;
+  }
+  body {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 4rem;
   }
 }
