@@ -1,9 +1,24 @@
+.lang-btn {
+  display: flex;
+}
+
 .lang-btn button {
   font-size: 1.1rem;
+  position: relative;
+  padding: 0.2rem 0.3rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.lang-btn button:hover {
+  background: var(--black);
+  color: var(--white);
 }
 
 .lang-btn button:first-child {
-  border-right: 1px solid var(--black);
-  padding-right: 0.5rem;
-  margin-right: 0.25rem;
+  border-right: 2px solid var(--black);
+}
+
+.lang-btn button.current {
+  font-weight: 600;
 }

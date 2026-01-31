@@ -123,6 +123,43 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 2rem;
+
+  .project-field {
+    font-size: 1.25rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 1px;
+    color: var(--black);
+    -webkit-text-stroke-color: var(--white);
+    margin-bottom: 4px;
+  }
+
+  a {
+    font-size: 1.25rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 1px;
+    color: var(--black);
+    -webkit-text-stroke-color: var(--green);
+    margin-bottom: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+
+    svg {
+      transition: 0.4s;
+      transform-origin: right;
+    }
+
+    &:hover {
+      color: var(--green);
+
+      svg {
+        transform: scaleX(1.2);
+      }
+    }
+  }
 }
 
 .project-page-preview {

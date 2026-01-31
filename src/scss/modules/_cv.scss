@@ -19,6 +19,14 @@ a.cv-download {
   border-radius: 50px;
   border: 2px solid var(--green);
   background-color: var(--black);
+
+  &:hover {
+    background: var(--green);
+
+    path {
+      fill: var(--black);
+    }
+  }
 }
 
 .cv h2,
