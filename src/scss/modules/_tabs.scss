@@ -19,6 +19,11 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--green);
   margin-bottom: 4px;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--green);
+  }
 }
 
 .tabs-slide {
@@ -36,6 +41,14 @@
 .tabs-slide-active {
   transform: translateX(0);
   display: block;
+
+  h3 {
+    color: var(--white) !important;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-style: solid;
+    -webkit-text-stroke-color: var(--white);
+  }
 }
 
 .tabs-slide-flex {

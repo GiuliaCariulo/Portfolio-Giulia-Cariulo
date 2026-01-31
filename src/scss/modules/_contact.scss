@@ -16,6 +16,21 @@
 .contact ul li a {
   color: var(--green);
   text-decoration: none;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    z-index: -1;
+  }
+
+  &:hover {
+    color: var(--black);
+    &::after {
+      background: var(--green);
+    }
+  }
 }
 
 .contact a,

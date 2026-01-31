@@ -12,8 +12,22 @@ import frTranslations from "../fr.json";
 // ============================================
 // On attend que toute la page HTML soit chargée avant d'exécuter le code
 document.addEventListener("DOMContentLoaded", async () => {
-  // La langue par défaut affichée au chargement de la page
-  const defaultLang = "fr";
+  // ============================================
+  // DÉTECTION DE LA LANGUE DU NAVIGATEUR
+  // ============================================
+  // On récupère la langue préférée de l'utilisateur depuis son navigateur
+  // navigator.language retourne une chaîne de caractères comme "en-US" ou "fr-FR"
+  const userLang = navigator.language || navigator.userLanguage;
+  let defaultLang = "";
+
+  // On détermine la langue par défaut à utiliser
+  // Si la langue du navigateur commence par "fr", on choisit le français
+  // Sinon, on choisit l'anglais
+  if (userLang.startsWith("fr")) {
+    defaultLang = "fr";
+  } else {
+    defaultLang = "en";
+  }
 
   // ============================================
   // RÉCUPÉRATION DE LA LANGUE SAUVEGARDÉE
@@ -74,11 +88,25 @@ document.addEventListener("DOMContentLoaded", async () => {
   // ============================================
   // Pour chaque bouton de changement de langue :
   langSwitcherBtns.forEach((btn) => {
+    // On vérifie si ce bouton correspond à la langue courante
+    if (btn.dataset.lang === currentLang) {
+      btn.classList.add("current");
+    } else {
+      btn.classList.remove("current");
+    }
     // On ajoute un écouteur d'événement qui réagit au clic
     btn.addEventListener("click", () => {
       // On récupère la langue cible depuis l'attribut "data-lang" du bouton
       // (ex: "fr" ou "en")
       const newLang = btn.dataset.lang;
+
+      // On enlève la classe current de tout les buttons
+      langSwitcherBtns.forEach((button) => {
+        button.classList.remove("current");
+      });
+
+      // et on la rajoute au bon button
+      btn.classList.add("current");
 
       // ============================================
       // SAUVEGARDE DU CHOIX DE LANGUE

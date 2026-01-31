@@ -16,7 +16,7 @@
       /></a>
       <div class="navbar-mobile-right">
         <div class="lang-btn">
-          <button class="lang-switch" data-lang="fr">fr</button>
+          <button class="lang-switch current" data-lang="fr">fr</button>
           <button class="lang-switch" data-lang="en">en</button>
         </div>
         <button class="menu-burger">
@@ -63,11 +63,12 @@
             <a href="#contact" data-translation="menu.contact">Contact</a>
           </li>
         </ul>
-        <div class="lang-btn">
-          <button class="lang-switch" data-lang="fr">fr</button>
+        <div class="lang-btn" data-current="">
+          <button class="lang-switch current" data-lang="fr">fr</button>
           <button class="lang-switch" data-lang="en">en</button>
         </div>
       </nav>
+      <div class="menu-background"></div>
     </header>
     <div class="navbar-background" aria-hidden="true"></div>
     <main>
@@ -85,9 +86,10 @@
               alt="Portfolio de Giulia Cariulo, apprentie en Interactive Media Designer"
             />
           </h1>
-          <a href="#project" class="hero-btn" data-translation="hero.btn"
-            >Projets</a
-          >
+          <a href="#project" class="hero-btn">
+          <span data-translation="hero.btn">Projets</span>
+          <span data-translation="hero.btn">Projets</span>
+        </a>
         </div>
       </section>
       <section id="project" class="project">
@@ -136,7 +138,7 @@
           </div>
         </form>
         <div class="project-cards-grid" aria-hidden="true">
-          <div id="item1" class="project-card" data-type="Ui/Ux & Web Dev">
+          <div id="item1" class="project-card" data-type="Photo">
             <div class="project-item">
               <a href="projects-page/project-fcbulle.html">
                 <div>
@@ -321,7 +323,7 @@
         <div class="line"></div>
         <div class="cv-flow">
           <div class="tabs">
-            <button data-target="tabs-slide-1">
+            <button data-target="tabs-slide-1" class="tabs-slide-active">
               <h3 data-translation="cv-tab.education">Formations</h3>
             </button>
             <button data-target="tabs-slide-2">
@@ -508,7 +510,7 @@
               </li>
             </ul>
             <p>Fribourg, CH</p>
-          </div>
+          </nav>
         </div>
       </section>
     </main>

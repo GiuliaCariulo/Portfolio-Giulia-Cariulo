@@ -32,6 +32,14 @@
   text-align: center;
 }
 
+.menu-background {
+  position: absolute;
+  background: var(--green);
+  inset: 0;
+  opacity: 0.7;
+  z-index: -1;
+}
+
 .menu a {
   font-size: 1.25rem;
   color: var(--white);
@@ -83,10 +91,30 @@
 
 .menu-desktop {
   display: none;
+
+  .menu-item {
+    padding: 1px 2px;
+    cursor: pointer;
+  }
+
+  .menu-item:hover {
+    background: var(--black);
+    a {
+      color: var(--white);
+    }
+  }
+}
+
+.menu-desktop-home {
+  transition: 0.3s;
+
+  &:hover {
+    transform: rotate(10deg) scale(1.1);
+  }
 }
 
 .menu-desktop-home img {
-  width: 100px;
+  width: 80px;
 }
 
 @media (min-width: 992px) {
