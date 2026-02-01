@@ -30,6 +30,8 @@
 }
 
 a.hero-btn {
+  display: block;
+  text-align: center;
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 3.5rem;
@@ -38,8 +40,8 @@ a.hero-btn {
   border: 2px solid var(--black);
   background-color: var(--green);
   text-decoration: none;
-  // position: relative;
-  // overflow: hidden;
+  position: relative;
+  overflow: hidden;
 
   // :nth-child(2) {
   //   position: absolute;
@@ -60,16 +62,21 @@ a.hero-btn {
   // }
 }
 
-a.hero-btn:hover {
-  :nth-child(2) {
-    transform: translateX(-50%) translateY(0);
-    transition: 0.3s 0.1s;
-  }
-
-  &::after {
-    transform: translateY(0);
-  }
+.hero-btn:hover {
+  color: var(--green);
+  background-color: var(--black);
 }
+
+// a.hero-btn:hover {
+//   :nth-child(2) {
+//     transform: translateX(-50%) translateY(0);
+//     transition: 0.3s 0.1s;
+//   }
+
+//   &::after {
+//     transform: translateY(0);
+//   }
+// }
 
 @media (min-width: 992px) {
   .hero-title-mobile {

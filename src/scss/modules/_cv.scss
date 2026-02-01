@@ -10,12 +10,15 @@
 }
 
 a.cv-download {
+  width: 100%;
+  max-width: 325px;
   position: absolute;
   bottom: 1.2rem;
   margin-left: 11.5rem;
+  display: flex;
+  justify-content: center;
   transform: scale(45%);
-  padding: 2rem 0;
-  padding: 0.75rem 6.5rem;
+  padding: 0.75rem;
   border-radius: 50px;
   border: 2px solid var(--green);
   background-color: var(--black);
@@ -26,6 +29,23 @@ a.cv-download {
     path {
       fill: var(--black);
     }
+  }
+}
+
+@media (min-width: 650px) {
+  a.cv-download {
+    padding: 1rem;
+    max-width: 425px;
+    margin-left: 15rem;
+    bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  a.cv-download {
+    max-width: 575px;
+    margin-left: 19.5rem;
+    bottom: 1.5rem;
   }
 }
 
