@@ -78,6 +78,10 @@
   background-image: url(/src/img/architecture-1.jpg);
 }
 
+#fc-bulle {
+  background-image: url(/src/img/fc-bulle.png);
+}
+
 .project-item a {
   width: 100%;
   display: flex;
@@ -179,6 +183,12 @@ section.project-page {
   text-align: right;
   display: block;
   margin-bottom: 0.25rem;
+}
+
+.project-page a.project-comments {
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .project-page img {
