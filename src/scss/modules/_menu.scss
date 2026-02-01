@@ -97,11 +97,8 @@
     cursor: pointer;
   }
 
-  .menu-item:hover {
-    background: var(--black);
-    a {
-      color: var(--white);
-    }
+  .menu-item:hover a {
+    color: var(--white);
   }
 }
 

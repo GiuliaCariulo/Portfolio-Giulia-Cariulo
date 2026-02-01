@@ -44,6 +44,12 @@
   }
 }
 
+@media (min-width: 1300px) {
+  .project-item img {
+    width: 500px;
+  }
+}
+
 .project-item a {
   width: 100%;
   display: flex;
@@ -64,43 +70,6 @@
 
 .project-item-left a div {
   text-align: left;
-}
-
-// Project sur index.html desktop grid
-
-.project-cards-grid {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .project-cards {
-    display: none;
-  }
-
-  .project-cards-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas:
-      "banger . . bip"
-      ". bitch beach beach"
-      "bleach bleach bleach bleach";
-  }
-
-  #item1 {
-    grid-area: banger;
-  }
-  #item2 {
-    grid-area: bip;
-  }
-  #item3 {
-    grid-area: bitch;
-  }
-  #item4 {
-    grid-area: beach;
-  }
-  #item5 {
-    grid-area: bleach;
-  }
 }
 
 // Project sur page de projet ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––

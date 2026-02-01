@@ -38,26 +38,26 @@ a.hero-btn {
   border: 2px solid var(--black);
   background-color: var(--green);
   text-decoration: none;
-  position: relative;
-  overflow: hidden;
+  // position: relative;
+  // overflow: hidden;
 
-  :nth-child(2) {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%) translateY(200%);
-    transition: transform 0.3s;
-    color: var(--green);
-    z-index: 1;
-  }
+  // :nth-child(2) {
+  //   position: absolute;
+  //   left: 50%;
+  //   transform: translateX(-50%) translateY(200%);
+  //   transition: transform 0.3s;
+  //   color: var(--green);
+  //   z-index: 1;
+  // }
 
-  &::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: var(--black);
-    transform: translateY(101%);
-    transition: transform 0.3s;
-  }
+  // &::after {
+  //   content: "";
+  //   position: absolute;
+  //   inset: 0;
+  //   background: var(--black);
+  //   transform: translateY(101%);
+  //   transition: transform 0.3s;
+  // }
 }
 
 a.hero-btn:hover {
