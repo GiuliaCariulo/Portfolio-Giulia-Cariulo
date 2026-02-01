@@ -13,11 +13,23 @@
   "filter.video": "Video",
   "filter.graphism": "Graphism",
 
-  "project-scroll": "Please scroll the preview",
-  "project-page-mandate": "Mandate",
-  "project-page-comments": "Comments",
-  "licorne-description": "Licorne description",
-  "licorne-comments": "Licorne comments",
+  "project.scroll": "Please scroll the preview",
+  "project.page.mandate": "Mandate",
+  "project.page.comments": "Comments",
+
+  "licorne.description": "For an end-of-year project, we were asked to promote Lic%rne brand non-alcoholic beers. We had to make a promotional video, design the website, and code the website. The brand wants to promote its non-alcoholic, local, and craft beers.",
+  "licorne.comments": "Watch the promotional video",
+
+  "architecture.title": "Architecture",
+  "architecture.description": "Here are some architectural photos I took during my travels in Ticino, Venice, and Paris.",
+
+  "fc-bulle.description": "The FC-Bulle soccer club wanted to redo their promotional video, which was intended for the hero section of their website and an Instagram post.",
+  "fc-bulle.comments": "This project was carried out in collaboration with ",
+
+  "stromer.description": "For the graphic design class, we had to redesign the Stromer logo.",
+
+  "protoherisse.description": "The theater troupe Les Apostrophes staged and performed a play called “Protoherissé.“ I was in charge of photographing the performance.",
+  "connie.blyde.description": "We had to create a mock-up website for a fictional hair salon with a strong visual identity",
 
   "cv-tab.education": "Education",
   "cv-tab.skills": "Skills",
@@ -53,7 +65,7 @@
 
   "me.title": "Me?",
   "me.apprentice": "Apprentice",
-  "me.text": "I have to do it",
+  "me.text": "Hello, my name is Giulia Cariulo. I study at Eikon in Fribourg and I am looking to become a professional in the web industry. I want to become a developer, but I am also interested in UX/UI. I want to learn how to work with CMS such as WordPress or Drupal.",
 
   "contact.title": "Contact me"
 }

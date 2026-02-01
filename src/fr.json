@@ -13,23 +13,23 @@
   "filter.video": "Vidéo",
   "filter.graphism": "Graphisme",
 
-  "project-scroll": "Veuillez scroller l'aperçu",
-  "project-page-mandate": "Mandat",
-  "project-page-comments": "Commentaires",
+  "project.scroll": "Veuillez scroller l'aperçu",
+  "project.page.mandate": "Mandat",
+  "project.page.comments": "Commentaires",
 
-  "licorne-description": " Lors d'un projet de fin d'année, il nous a été demandé de réaliser la promotion de bières sans alcool de la marque Lic%rne. Nous avons dû réaliser une vidéo promotionnelle, la maquette du siteweb et coder le siteweb. La marque veut promouvoir ses bières sans alcool, locales et artisanales.",
-  "licorne-comments": "Voir la vidéo promotionnelle",
+  "licorne.description": " Lors d'un projet de fin d'année, il nous a été demandé de réaliser la promotion de bières sans alcool de la marque Lic%rne. Nous avons dû réaliser une vidéo promotionnelle, la maquette du siteweb et coder le siteweb. La marque veut promouvoir ses bières sans alcool, locales et artisanales.",
+  "licorne.comments": "Voir la vidéo promotionnelle",
 
-  "architecture-title": "Architecture",
-  "architecture-description": "Voici quelques photos d'architecture que j'ai prises durant des voyages, Tessin, Venise, Paris.",
+  "architecture.title": "Architecture",
+  "architecture.description": "Voici quelques photos d'architecture que j'ai prises durant des voyages, Tessin, Venise, Paris.",
 
-  "fc-bulle-description": "Le club de foot FC-Bulle souhaitait refaire leur vidéo de promotion qui avait pour destination le hero de leur siteweb et un post Instagram",
-  "fc-bulle-comments": "Ce projet a été réalisé en collaboration avec ",
+  "fc-bulle.description": "Le club de foot FC-Bulle souhaitait refaire leur vidéo de promotion qui avait pour destination le hero de leur siteweb et un post Instagram",
+  "fc-bulle.comments": "Ce projet a été réalisé en collaboration avec ",
 
-  "stromer-description": "Pour le cours de graphisme on a dû refaire le logo de Stromer.",
+  "stromer.description": "Pour le cours de graphisme on a dû refaire le logo de Stromer.",
 
-  "protoherisse-description": "La troupe de théâtre Les Apostrophes a mis en scène et joué une pièce nommée “Protoherissé“. J'ai été en charge de photographier la représentation.",
-  "connie-blyde-description": "Nous avons dû réalisé la maquette d'un siteweb pour un salon de coiffure fictif avec une identité visuelle forte.",
+  "protoherisse.description": "La troupe de théâtre Les Apostrophes a mis en scène et joué une pièce nommée “Protoherissé“. J'ai été en charge de photographier la représentation.",
+  "connie.blyde.description": "Nous avons dû réalisé la maquette d'un siteweb pour un salon de coiffure fictif avec une identité visuelle forte.",
 
   "cv-tab.education": "Formations",
   "cv-tab.skills": "Compétences",
@@ -65,7 +65,7 @@
 
   "me.title": "Moi?",
   "me.apprentice": "Apprentie",
-  "me.text": "Je dois encore l'écrire",
+  "me.text": "Hello, moi c’est Giulia Cariulo j'étudie à l’eikon à Fribourg et je cherche à me profesionnaliser dans le web. Je veux devenir developer mais le UX/UI m'intéresse également. Je veux à apprendre à travailler avec des CMS tels que WordPress ou Drupal.",
 
   "contact.title": "Contactez-moi"
 }
