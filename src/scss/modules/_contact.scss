@@ -5,6 +5,22 @@
   padding-top: 4rem;
 }
 
+.contact-mask {
+  width: 150px;
+}
+
+@media (min-width: 650px) {
+  .contact-mask {
+    width: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-flex {
+    gap: 3rem;
+  }
+}
+
 .contact ul {
   display: flex;
   flex-direction: column;
@@ -38,18 +54,32 @@
   font-size: 16px;
 }
 
-.contact-mask {
-  width: 150px;
+.contact a {
+  display: inline-block;
+  padding: 0 10px 10px;
+  position: relative;
 }
 
-@media (min-width: 650px) {
-  .contact-mask {
-    width: 200px;
-  }
+.contact a:hover {
+  color: var(--withe);
 }
 
-@media (min-width: 768px) {
-  .contact-flex {
-    gap: 3rem;
-  }
+.contact a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: var(--green);
+  transition:
+    width 0.3s ease 0s,
+    left 0.3s ease 0s;
+  width: 0;
+}
+
+.contact a:hover:after {
+  width: 100%;
+  left: 0;
 }
