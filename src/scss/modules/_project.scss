@@ -28,26 +28,50 @@
 .project h3 {
   font-size: 1.25rem;
   font-weight: 900;
+  letter-spacing: 1.25;
 }
 
 .project-item {
   width: 100%;
 }
 
-.project-item img {
-  width: 200px;
+.project-item .project-preview {
+  width: 250px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
 }
 
 @media (min-width: 650px) {
-  .project-item img {
-    width: 300px;
+  .project-item .project-preview {
+    width: 350px;
+    height: 168px;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-item .project-preview {
+    width: 450px;
+    height: 216px;
+  }
+}
+
+@media (min-width: 992px) {
+  .project-item .project-preview {
+    width: 550px;
+    height: 264px;
   }
 }
 
 @media (min-width: 1300px) {
-  .project-item img {
-    width: 500px;
+  .project-item .project-preview {
+    width: 750px;
+    height: 360px;
   }
+}
+
+#licorne {
+  background-image: url(/src/img/licorne-preview.png);
 }
 
 .project-item a {
@@ -72,7 +96,7 @@
   text-align: left;
 }
 
-// Project sur page's project' ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// Project page ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 .project-page h1 {
   padding: 2rem 0;
@@ -101,16 +125,14 @@
 .project-page-top {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   padding-bottom: 2rem;
 
   .project-field {
-    font-size: 1.25rem;
-    font-weight: 900;
+    font-size: 1rem;
+    font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    -webkit-text-stroke-width: 1px;
-    color: var(--black);
-    -webkit-text-stroke-color: var(--white);
+    color: var(--white);
     margin-bottom: 4px;
   }
 
@@ -154,3 +176,13 @@
 .project-page img {
   width: 100%;
 }
+
+.project-page-presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+
+.project-page-mockup
