@@ -1,3 +1,5 @@
+import "./gsap.js";
+
 // ============================================
 // IMPORTS DES FICHIERS DE TRADUCTION
 // ============================================
@@ -75,6 +77,18 @@ document.addEventListener("DOMContentLoaded", async () => {
         translation.textContent = translationsData[key];
       }
     });
+
+    // aficher le cv dans la bonne langue
+    const cvLink = document.querySelector(".cv-download");
+
+    if (cvLink) {
+      const cvPath =
+        lang === "fr"
+          ? "files/CV_Cariulo_Giulia_InteractiveMediaDesigner_Fr.pdf"
+          : "files/CV_Cariulo_Giulia_InteractiveMediaDesigner_En.pdf";
+
+      cvLink.setAttribute("href", cvPath);
+    }
   };
 
   // ============================================
