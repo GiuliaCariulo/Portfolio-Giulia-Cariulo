@@ -143,23 +143,26 @@ menuItems.forEach(function (menuItem) {
 
 // Tabs
 
-document.querySelector(".tabs").addEventListener("click", (e) => {
-  const btn = e.target.closest("[data-target]");
-  if (!btn) return;
+const tabs = document.querySelector(".tabs");
+if (tabs) {
+  tabs.addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-target]");
+    if (!btn) return;
 
-  const target = btn.dataset.target;
+    const target = btn.dataset.target;
 
-  document
-    .querySelectorAll("[data-target]")
-    .forEach((b) => b.classList.remove("tabs-slide-active"));
+    document
+      .querySelectorAll("[data-target]")
+      .forEach((b) => b.classList.remove("tabs-slide-active"));
 
-  document
-    .querySelectorAll(".tabs-slide")
-    .forEach((p) => p.classList.remove("tabs-slide-active"));
+    document
+      .querySelectorAll(".tabs-slide")
+      .forEach((p) => p.classList.remove("tabs-slide-active"));
 
-  btn.classList.add("tabs-slide-active");
-  document.getElementById(target).classList.add("tabs-slide-active");
-});
+    btn.classList.add("tabs-slide-active");
+    document.getElementById(target).classList.add("tabs-slide-active");
+  });
+}
 
 // // __________________________________________________________________________________________________
 
@@ -170,7 +173,9 @@ const filters = document.querySelectorAll("input[name='type']");
 
 const styleElements = (elements) => {
   elements.forEach((element) => {
-    element.classList.remove("project-item-left");
+    element
+      .querySelector(".project-item")
+      .classList.remove("project-item-left");
   });
 
   const visibleElements = Array.from(elements).filter((element) => {
@@ -178,8 +183,8 @@ const styleElements = (elements) => {
   });
 
   visibleElements.forEach((element, index) => {
-    if (index % 2 === 0) {
-      element.classList.add("project-item-left");
+    if (index % 2 === 1) {
+      element.querySelector(".project-item").classList.add("project-item-left");
     }
   });
 };
