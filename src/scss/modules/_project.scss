@@ -102,6 +102,23 @@
   background-image: url(/src/img/bandit-preview.jpg);
 }
 
+#tatitotu {
+  background-image: url(/src/img/tatitotu-preview.png);
+}
+
+@media (min-width: 768px) {
+  #tatitotu-galery {
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+    row-gap: 2rem;
+    flex-wrap: wrap;
+  }
+  #tatitotu-galery img {
+    width: 45%;
+  }
+}
+
 .project-item a {
   width: 100%;
   display: flex;
