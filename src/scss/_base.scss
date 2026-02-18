@@ -41,7 +41,8 @@ h2 {
   text-align: center;
 }
 
-h2 {
+h2,
+.project-page-h1 {
   font-size: 2.25rem;
   padding: 2rem 0;
 }
@@ -68,7 +69,8 @@ footer p {
 }
 
 @media (min-width: 650px) {
-  h2 {
+  h2,
+  .project-page-h1 {
     font-size: 3rem;
   }
 }
@@ -80,7 +82,8 @@ footer p {
   body {
     font-size: 18px;
   }
-  h2 {
+  h2,
+  .project-page-h1 {
     font-size: 4rem;
   }
 }

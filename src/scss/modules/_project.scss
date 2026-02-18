@@ -95,7 +95,7 @@
 }
 
 #licorne-vid {
-  background-image: url();
+  background-image: url(/src/img/licorne-preview.png);
 }
 
 .project-item a {
@@ -231,4 +231,10 @@ p.project-page-action {
   width: 100%;
   color: var(--green);
   text-align: right;
+}
+
+@media (min-width: 768px) {
+  .project-page-mockup {
+    height: 600px;
+  }
 }
