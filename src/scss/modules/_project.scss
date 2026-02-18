@@ -95,7 +95,7 @@
 }
 
 #licorne-vid {
-  background-image: url(/src/img/licorne-preview.png);
+  background-image: url(/src/img/licorne-vid-preview.png);
 }
 
 .project-item a {
@@ -237,13 +237,13 @@ p.project-page-action {
   .project-page-mockup {
     height: 600px;
   }
-  .project-page-presentation {
+  .project-page-presentation-position {
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 4rem;
     column-gap: 2rem;
   }
-  .project-page-presentation img {
+  .project-page-presentation-position img {
     width: 40%;
   }
 }
