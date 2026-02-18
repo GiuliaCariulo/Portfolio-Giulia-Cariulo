@@ -237,4 +237,13 @@ p.project-page-action {
   .project-page-mockup {
     height: 600px;
   }
+  .project-page-presentation {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 4rem;
+    column-gap: 2rem;
+  }
+  .project-page-presentation img {
+    width: 40%;
+  }
 }
