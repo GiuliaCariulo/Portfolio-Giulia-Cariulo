@@ -29,6 +29,7 @@ input[type="radio"]:checked + .filter-label {
   color: var(--black);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--green);
+  transition: color 0.3s;
 
   &:hover {
     color: var(--green);

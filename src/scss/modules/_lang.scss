@@ -8,12 +8,12 @@
   padding: 0.2rem 0.3rem;
   cursor: pointer;
   text-transform: uppercase;
+  transition: color 0.3s;
 }
 
-// .lang-btn button:hover {
-//   background: var(--black);
-//   color: var(--white);
-// }
+.lang-btn button:hover {
+  color: var(--white);
+}
 
 .lang-btn button:first-child {
   border-right: 2px solid var(--black);

@@ -97,6 +97,10 @@
     cursor: pointer;
   }
 
+  .menu-item a {
+    transition: color 0.3s;
+  }
+
   .menu-item:hover a {
     color: var(--white);
   }

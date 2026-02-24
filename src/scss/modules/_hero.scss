@@ -42,41 +42,14 @@ a.hero-btn {
   text-decoration: none;
   position: relative;
   overflow: hidden;
-
-  // :nth-child(2) {
-  //   position: absolute;
-  //   left: 50%;
-  //   transform: translateX(-50%) translateY(200%);
-  //   transition: transform 0.3s;
-  //   color: var(--green);
-  //   z-index: 1;
-  // }
-
-  // &::after {
-  //   content: "";
-  //   position: absolute;
-  //   inset: 0;
-  //   background: var(--black);
-  //   transform: translateY(101%);
-  //   transition: transform 0.3s;
-  // }
+  transition: color 0.5s;
+  transition: background-color 0.5s;
 }
 
 .hero-btn:hover {
   color: var(--green);
   background-color: var(--black);
 }
-
-// a.hero-btn:hover {
-//   :nth-child(2) {
-//     transform: translateX(-50%) translateY(0);
-//     transition: 0.3s 0.1s;
-//   }
-
-//   &::after {
-//     transform: translateY(0);
-//   }
-// }
 
 @media (min-width: 992px) {
   .hero-title-mobile {

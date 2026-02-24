@@ -7,6 +7,11 @@
 
 .contact-mask {
   width: 150px;
+  transition: transform 0.3s;
+}
+
+.contact-mask:hover {
+  transform: translateY(-5px) scale(1.1) rotateZ(-5deg);
 }
 
 @media (min-width: 650px) {
@@ -32,21 +37,6 @@
 .contact ul li a {
   color: var(--green);
   text-decoration: none;
-  // position: relative;
-
-  // &::after {
-  //   content: "";
-  //   position: absolute;
-  //   inset: -2px;
-  //   z-index: -1;
-  // }
-
-  // &:hover {
-  //   color: var(--black);
-  //   &::after {
-  //     background: var(--green);
-  //   }
-  // }
 }
 
 .contact a,

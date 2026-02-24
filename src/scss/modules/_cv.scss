@@ -22,9 +22,10 @@ a.cv-download {
   border-radius: 50px;
   border: 2px solid var(--green);
   background-color: var(--black);
+  transition: background-color 0.3s;
 
   &:hover {
-    background: var(--green);
+    background-color: var(--green);
 
     path {
       fill: var(--black);
@@ -56,10 +57,8 @@ a.cv-download {
 }
 
 .cv h4 {
-  // font-family: var(--contrast-font);
   color: var(--green);
   font-size: 1.25rem;
-  // font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
   margin-bottom: 0.25rem;

@@ -40,6 +40,11 @@
   height: 120px;
   background-size: cover;
   background-position: center;
+  transition: transform 0.3s;
+}
+
+.project-item .project-preview:hover {
+  transform: translateY(-5px) scale(1.1) rotateZ(-5deg);
 }
 
 @media (min-width: 650px) {
