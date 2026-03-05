@@ -3,6 +3,7 @@
   "menu.project": "Projetcs",
   "menu.me": "Me",
   "menu.contact": "Contact me",
+  "menu.git": "My GitHub",
 
   "hero.btn": "Projects",
   "project.title": "Projects",
@@ -47,7 +48,7 @@
 
   "cv-tab.education": "Education",
   "cv-tab.skills": "Skills",
-  "cv-tab.experience": "Experience",
+  "cv-tab.experience": "Experiences",
   "cv-tab.languages": "Languages",
 
   "cv.education.first.date": "2021-Now",
