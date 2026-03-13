@@ -20,10 +20,12 @@
   "watch.video": "Voir la vidéo",
   "watch.site": "Voir le site",
 
-  "licorne.description": " Lors d'un projet de fin d'année, il nous a été demandé de réaliser la promotion de bières sans alcool de la marque Lic%rne. Nous avons dû réaliser une vidéo promotionnelle, la maquette du siteweb et coder le siteweb. La marque veut promouvoir ses bières sans alcool, locales et artisanales.",
-  "licorne.first.comments": "J'ai codé ce siteweb il y a deux ans, la maquette a été modifiée depuis et le code a mal vieilli. C'est pour ça que je ne propose pas de lien pour visiter le siteweb.",
+  "licorne.first.description": "À chaque fin d’année, nous avons ce qu’on appelle une “pratique pro”, qui est un projet interdisciplinaire. En juin 2024, la Ppro tournait autour de la brasserie Lic%rne. Sans prendre pour référence la brasserie existante du même nom, on a dû choisir les couleurs des étiquettes, produire une vidéo promotionnelle, réaliser la maquette d’une one page promotionnelle et finalement la coder.",
+  "licorne.second.description": "Lic%rne se situe à Estavayer et promeut une production locale et des valeurs telles que l’artisanat, la qualité, la tradition. Ce qui fait sa spécificité c’est qu’elle produit des bières sans alcool. Ce n’est pas une alternative, c’est le plaisir de la bière sous tous ses arôme, pour tout le monde.",
+  "licorne.third.description": "Les teintes de beige font référence aux céréales et à l’histoire médiévale de la bière et de la ville. Pour apporter de la modernité, j’ai utilisé des couleurs plus vives pour les bouteilles.",
+  "licorne.first.comments": "Quand je l’ai codé, nous n’avions pas encore appris à réaliser des sites responsive ou à utiliser la méthode SMACSS. Le code a très mal vieilli, c’est pourquoi je suis en train de le développer de nouveau.",
   "licorne.second.comments": "Voir la vidéo promotionnelle",
-  "licorne.vid.second.comments": "Voir le site promotionnel",
+  "licorne.vid.comments": "Voir le site promotionnel",
 
   "architecture.title": "Architecture",
   "architecture.description": "Voici quelques photos d'architecture que j'ai prises durant des voyages, Tessin, Venise, Paris.",

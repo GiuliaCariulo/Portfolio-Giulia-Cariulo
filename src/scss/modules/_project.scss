@@ -229,6 +229,11 @@ section.project-page {
   text-transform: capitalize;
   text-decoration: underline;
   text-underline-offset: 3px;
+  color: var(--white);
+}
+
+.project-page a.project-comments:hover {
+  color: var(--green);
 }
 
 .project-page img {
