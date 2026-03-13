@@ -157,9 +157,12 @@ section.project-page {
   color: var(--green);
   font-size: 1rem;
   font-weight: 300;
-  text-transform: uppercase;
   padding: 0;
   text-decoration: none;
+}
+
+.project-page h2 {
+  font-family: var(--base-font);
 }
 
 .project-page h2 {
@@ -236,9 +239,12 @@ section.project-page {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   gap: 1rem;
   padding-top: 2rem;
+}
+
+.project-page-presentation a {
+  align-self: flex-end;
 }
 
 .project-page-mockup {
