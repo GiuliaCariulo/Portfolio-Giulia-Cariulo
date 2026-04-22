@@ -23,6 +23,7 @@
   "licorne.first.description": "À chaque fin d’année, nous avons ce qu’on appelle une “pratique pro”, qui est un projet interdisciplinaire. En juin 2024, la Ppro tournait autour de la brasserie Lic%rne. Sans prendre pour référence la brasserie existante du même nom, on a dû choisir les couleurs des étiquettes, produire une vidéo promotionnelle, réaliser la maquette d’une one page promotionnelle et finalement la coder.",
   "licorne.second.description": "Lic%rne se situe à Estavayer et promeut une production locale et des valeurs telles que l’artisanat, la qualité, la tradition. Ce qui fait sa spécificité c’est qu’elle produit des bières sans alcool. Ce n’est pas une alternative, c’est le plaisir de la bière sous tous ses arôme, pour tout le monde.",
   "licorne.third.description": "Les teintes de beige font référence aux céréales et à l’histoire médiévale de la bière et de la ville. Pour apporter de la modernité, j’ai utilisé des couleurs plus vives pour les bouteilles.",
+  "licorne.fourth.description": "Quand je l’ai codé, nous n’avions pas encore appris à réaliser des sites responsive ou à utiliser la méthode SMACSS. Le code a très mal vieilli, c’est pourquoi je suis en train de le développer de nouveau.",
   "licorne.first.comments": "Quand je l’ai codé, nous n’avions pas encore appris à réaliser des sites responsive ou à utiliser la méthode SMACSS. Le code a très mal vieilli, c’est pourquoi je suis en train de le développer de nouveau.",
   "licorne.second.comments": "Voir la vidéo promotionnelle",
   "licorne.vid.comments": "Voir le site promotionnel",
@@ -30,25 +31,33 @@
   "architecture.title": "Architecture",
   "architecture.description": "Voici quelques photos d'architecture que j'ai prises durant des voyages, Tessin, Venise, Paris.",
 
-  "fc-bulle.description": "Le club de foot FC-Bulle souhaitait refaire leur vidéo de promotion qui avait pour destination le hero de leur siteweb et un post Instagram",
+  "fc-bulle.first.description": "Le FC Bulle (club de foot) cherchait quelqu’un pour rafraîchir leur vidéo promotionnelle du hero de leur site. J’ai eu le plaisir de travailler avec mon amie Clémentine Couchet pour ce projet.",
+  "fc-bulle.second.description": "Nous avons mis l’accent sur l’esprit collectif de ce sport. Pour créer cet effet on a filmé des moments de complicité et réalisé un jeu avec la balle qui se passe d’un plan à l’autre.",
   "fc-bulle.comments": "Ce projet a été réalisé en collaboration avec ",
 
-  "stromer.description": "Pour le cours de graphisme on a dû refaire le logo de Stromer.",
+  "stromer.first.description": "Pour le cours de graphisme, il nous a été demandé de réaliser par groupes une mise à jour et reconstruction de l’identité visuelle de Stromer. Je me suis occupée du Logo.",
+  "stromer.second.description": "Afin de renforcer le positionnement de Stromer, la nouvelle identité visuelle incarne l’essence de la mobilité urbaine moderne. Elle allie élégance, performance et innovation technologique, tout en restant fidèle aux valeurs fondatrices de Stromer : durabilité, qualité suisse et design d’exception.",
 
-  "protoherisse.description": "La troupe de théâtre Les Apostrophes a mis en scène et joué une pièce nommée “Protoherissé“. J'ai été en charge de photographier la représentation.",
+  "protoherisse.first.description": "«Alors qu’un scientifique travaillant sur le projet d’un ascenseur cosmique s’exile du foyer familial, une femelle échidné recherche un congénère afin de perpétuer son espèce. Inspirée du parcours de Théodore Kaczynski, professeur de mathématique étatsunien devenu terroriste et récemment décédé en prison, cette pièce confronte des invisibles proches et lointains, rappelant qu’à mesure que la technologie nous transporte vers des sphères de plus en plus hautes, des espèces millénaires s’éteignent à nos pieds. Une pièce multifocale au récit morcelé, entre surveillance satellitaire et regard d’enfant.»",
+  "protoherisse.second.description": "La troupe de théâtre de l’université de Fribourg a interprété «Protohérissé» en mai 2024 et m’a mandaté pour les photos.",
 
-  "connie.blyde.description": "Nous avons dû réalisé la maquette d'un siteweb pour un salon de coiffure fictif avec une identité visuelle forte.",
+  "connie.blyde.description": "Pour le cours de UI/UX, il nous a été demandé de réaliser une onepage à l’identité forte pour le salon de coiffure Conny&Blyde. Le contenu textuel était donné, il a fallu organiser les informations et ensuite la mettre en page.",
+
+  "atlas.description": "Atlas Divin est une maquette qui nous a été donnée à développer en cours. On y a appris à réaliser un changement de thème light/dark mode et des filtres dynamiques. Le respect de la sémantique était mis en avant dans l’évaluation.",
 
   "bandit.first.title": "Le nouveau logo",
   "bandit.second.title": "Le logo original",
-  "bandit.description": "Pour ce projet de cours nous avons dû refaire le logo d'un groupe de musique",
+  "bandit.first.description": "Pour le cours de graphisme il a fallu choisir un groupe et créer un nouveau logo.",
+  "bandit.second.description": "Souvent surnommés les Bonnie & Clyde du rock, est un duo électrifiant. Jusqu’ici autocentrés et cathartiques, les textes de Bandit Bandit restent intimes tout en s’avérant politiques, affranchis, se jouant des mots. Leur musique débridée, résonne fort tout au long d’un album dévorant d’un désir aussi insatiable que contagieux.",
   "bandit.comments": "Bandit Bandit cultive une sensualité brute et électrique, portée par l’alchimie évidente entre Maëva Nicolas et Hugo Herleman. Leur musique joue sur la tension entre douceur et rugosité, mêlant voix caressante, guitares vibrantes et paroles intimes qui frôlent la confession amoureuse. Sur scène, leur complicité presque magnétique transforme chaque morceau en un échange charnel d’énergie et de regards, où le désir et la fragilité s’entrelacent.",
 
   "tatitotu.first.title": "La nouvelle interface",
   "tatitotu.second.title": "L'interface originale",
-  "tatitotu.description": "Le site conjugaison tatitotu.ch est une plateforme éducative gratuite qui propose des exercices et défis de conjugaison des verbes français. Nous avions pour consigne de garder la structure en donnant une nouvelle ambiance visuelle",
+  "tatitotu.first.description": "Le site conjugaison tatitotu.ch est une plateforme éducative gratuite qui propose des exercices et défis de conjugaison des verbes français.",
+  "tatitotu.second.description": "Nous avions pour consigne de garder la structure en donnant une nouvelle ambiance visuelle.",
 
-  "nepal.description": "Népal est un rappeur parisien à l’aura mystérieuse, figure discrète d’une scène indépendante façonnée entre ombre et lumière. Membre du collectif 75e Session, il a construit un univers mélancolique et introspectif, mêlant prods planantes, textes lucides et esthétique nocturne. Masqué derrière son bob et ses silences, il laisse une œuvre sincère et éthérée, devenue culte après la sortie posthume de son album Adios Bahamas.",
+  "nepal.first.description": "Dans le cadre du cours vidéo, on a pu réalisé un clip sur la musique qu’on voulait. Népal est un rappeur parisien à l’aura mystérieuse, figure discrète d’une scène indépendante façonnée entre ombre et lumière. Membre du collectif 75e Session, il a construit un univers mélancolique et introspectif, mêlant prods planantes, textes lucides et esthétique nocturne.",
+  "nepal.second.description": "On a repris cet univers de nuit, avec le visage caché dans la ville. La chaise est centrale tout au long du clip. Quand on voit une chaise vide, on s’imagine que quelqu’un pourrait s’y asseoir. Elle marque à la fois une présence humaine et l’absence de la personne assise. C’est un au revoir au défunt rappeur, Népal.",
 
   "atlas-divin.title": "La maquette imposée",
 

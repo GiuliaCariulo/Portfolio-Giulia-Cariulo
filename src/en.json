@@ -20,7 +20,10 @@
   "watch.video": "Watch the video",
   "watch.site": "Watch the site",
 
-  "licorne.description": "For an end-of-year project, we were asked to promote Lic%rne brand non-alcoholic beers. We had to make a promotional video, design the website, and code the website. The brand wants to promote its non-alcoholic, local, and craft beers.",
+  "licorne.first.description": "À chaque fin d’année, nous avons ce qu’on appelle une “pratique pro”, qui est un projet interdisciplinaire. En juin 2024, la Ppro tournait autour de la brasserie Lic%rne. Sans prendre pour référence la brasserie existante du même nom, on a dû choisir les couleurs des étiquettes, produire une vidéo promotionnelle, réaliser la maquette d’une one page promotionnelle et finalement la coder.",
+  "licorne.second.description": "Lic%rne se situe à Estavayer et promeut une production locale et des valeurs telles que l’artisanat, la qualité, la tradition. Ce qui fait sa spécificité c’est qu’elle produit des bières sans alcool. Ce n’est pas une alternative, c’est le plaisir de la bière sous tous ses arôme, pour tout le monde.",
+  "licorne.third.description": "Les teintes de beige font référence aux céréales et à l’histoire médiévale de la bière et de la ville. Pour apporter de la modernité, j’ai utilisé des couleurs plus vives pour les bouteilles.",
+  "licorne.fourth.description": "Quand je l’ai codé, nous n’avions pas encore appris à réaliser des sites responsive ou à utiliser la méthode SMACSS. Le code a très mal vieilli, c’est pourquoi je suis en train de le développer de nouveau.",
   "licorne.first.comments": "I coded this website two years ago, the layout has since been modified, and the code has aged poorly. That's why I'm not providing a link to visit the website.",
   "licorne.second.comments": "Watch the promotional video",
   "licorne.vid.second.comments": "Watch the promotional site",
@@ -28,25 +31,32 @@
   "architecture.title": "Architecture",
   "architecture.description": "Here are some architectural photos I took during my travels in Ticino, Venice, and Paris.",
 
-  "fc-bulle.description": "The FC-Bulle soccer club wanted to redo their promotional video, which was intended for the hero section of their website and an Instagram post.",
+  "fc-bulle.first.description": "The FC Bulle (soccer club) was looking for someone to refresh their promotional video for their website and Instagram post. I had the pleasure of working with my friend Clémentine Couchet on this project.",
+  "fc-bulle.second.description": "We focused on the collective spirit of this sport. To create this effect, we filmed moments of camaraderie and created a game with the ball that takes place from one shot to the next.",
   "fc-bulle.comments": "This project was carried out in collaboration with ",
 
-  "stromer.description": "For the graphic design class, we had to redesign the Stromer logo.",
+  "stromer.first.description": "For the graphic design class, we were asked to update and reconstruct the visual identity of Stromer. I was in charge of the logo.",
+  "stromer.second.description": "In order to strengthen Stromer's positioning, the new visual identity embodies the essence of modern urban mobility. It combines elegance, performance and technological innovation, while remaining faithful to Stromer's founding values: sustainability, Swiss quality and exceptional design.",
 
-  "protoherisse.description": "The theater troupe Les Apostrophes staged and performed a play called “Protoherissé.“ I was in charge of photographing the performance.",
+  "protoherisse.first.description": "«While a scientist working on the project of a cosmic elevator is exiled from his family home, a female echidna searches for a congenitor to perpetuate her species. Inspired by the journey of Theodore Kaczynski, American mathematics professor who became a terrorist and recently died in prison, this play confronts close and distant invisibles, reminding us that as technology transports us towards ever-higher spheres, millennia-old species are extinguished at our feet. A multifocal play with a fragmented narrative, between satellite surveillance and a child's gaze.»",
+  "protoherisse.second.description": "The theater troupe of the University of Fribourg staged and performed \"Protohérissé\" in May 2024 and commissioned me to photograph the performance.",
 
-  "connie.blyde.description": "We had to create a mock-up website for a fictional hair salon with a strong visual identity",
+  "connie.blyde.description": "For the UI/UX class, we were asked to create a one-page website with a strong visual identity for the fictional hair salon Conny&Blyde. The textual content was provided, and we had to organize the information and then layout the page.",
+
+  "atlas.description": "Atlas Divin is a layout that was given to us to develop in class. We learned how to implement a light/dark theme change and dynamic filters. The respect of semantics was highlighted in the evaluation.",
 
   "bandit.first.title": "The new logo",
-  "bandit.second.title": "The original logo",
-  "bandit.description": "For this school's project, we had to redesign the logo of a music band.",
+  "bandit.first.description": "For the graphic design class, we had to choose a band and create a new logo.",
+  "bandit.second.description": "Often nicknamed the Bonnie & Clyde of rock, is an electrifying duo. So far self-centered and cathartic, the lyrics of Bandit Bandit remain intimate while proving political, emancipated, and playful with words. Their unrestrained music resonates strongly throughout an album devouring a desire as insatiable as contagious.",
   "bandit.comments": "Bandit Bandit cultivates a raw and electric sensuality, carried by the obvious chemistry between Maëva Nicolas and Hugo Herleman. Their music plays on the tension between softness and roughness, mixing caressing vocals, vibrant guitars, and intimate lyrics that border on romantic confessions. On stage, their almost magnetic complicity transforms each song into a sensual exchange of energy and glances, where desire and fragility intertwine.",
 
   "tatitotu.first.title": "The new interface",
   "tatitotu.second.title": "The original interface",
-  "tatitotu.description": "The conjugation tatitotu.ch website is a free educational platform that offers exercises and challenges for conjugating French verbs. Our instructions were to keep the structure while giving it a new visual look.",
+  "tatitotu.first.description": "The conjugation tatitotu.ch website is a free educational platform that offers exercises and challenges for conjugating French verbs.",
+  "tatitotu.second.description": "We had the instruction to keep the structure while giving it a new visual look.",
 
-  "nepal.description": "Nepal is a Parisian rapper with a mysterious aura, a discreet figure on an independent scene shaped by light and shadow. A member of the 75e Session collective, he has built a melancholic and introspective universe, combining dreamy beats, lucid lyrics, and a nocturnal aesthetic. Hidden behind his bucket hat and his silences, he leaves behind a sincere and ethereal body of work, which has become cult following the posthumous release of his album Adios Bahamas.",
+  "nepal.first.description": "As part of the video class, we were able to create a music video set to the song of our choice. Népal is a Parisian rapper with a mysterious aura, a low-key figure in an independent scene that exists somewhere between light and shadow. As a member of the 75e Session collective, he has crafted a melancholic and introspective world, blending dreamy beats, lucid lyrics, and a nocturnal aesthetic.",
+  "nepal.second.description": "We revisited this nocturnal world, with the face hidden within the city. The chair plays a central role throughout the video. When we see an empty chair, we imagine that someone could sit there. It signifies both a human presence and the absence of the person sitting there. It is a farewell to the late rapper, Népal.",
 
   "atlas-divin.title": "The given layout",
 
