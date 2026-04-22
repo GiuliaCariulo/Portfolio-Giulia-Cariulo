@@ -20,6 +20,15 @@
   "watch.video": "Voir la vidéo",
   "watch.site": "Voir le site",
 
+  "absurde.first.title": "Les wirframes high-fi",
+  "absurde.second.title": "Le moodboard",
+  "absurde.third.title": "Une frame du site",
+  "absurde.first.description": "Voici mon projet de fin de formation à l’eikon ! Lors du sixième semestre, nous sommes amené·e·s à monter un gros projet de ~250h dans la branche choisie. Le thème «Hors contrôle» a été donné et à partir de là nous sommes très libre. J’ai choisi le frontend.",
+  "absurde.second.description": "Quand le thème “Hors contrôle” a été donné, j’ai directement fait le parallèle avec la situation géopolitique actuelle. Face à l’absurdité du monde, je me sens parfois démunie et impuissante, comme si je n’exerçais aucun contrôle sur ceux qui le détiennent et en abusent. Il reste un outil essentiel dans toutes sociétées, le savoir. S’informer c’est aussi agir.",
+  "absurde.third.description": "J’ai de ce fait eu l’idée de développer une plateforme éditoriale tenue par un collectif militant en faveur des luttes sociales et du droit humain, nommé «L’Absurde» (fictif). L’Absurde est un média indépendant. Il est présent sur youtube et Instagram pour décrypter l’actualité et des sujets liés, et il tient cette plateforme. Cette dernière est un répertoire dans lequel on trouve différents supports pour s’informer : articles de presse, livres, podcasts, vidéos. Il n’est pas toujours simple de trouver des informations, surtout quand on ne sait pas par où commencer. Elle permet donc de guider et de varier les supports pour s’adapter aux besoins de chacun.",
+  "absurde.fourth.description": "Pour la développer j’ai commencé mon apprentissage de WordPress. Je voulais absolument découvrir les CMS et WordPress m’a semblé le plus abordable pour débuter. Je me ferai un plaisir de vous raconter en détails comment j’ai abordé la partie technique directement en entretien.",
+  "absurde.comments": "De nombreuses choses sont encore à améliorer, ici le but était de voir grand (trop grand pour ma part au vu du temps à disposition) et d'approfondir ses connaissances/apprendre de nouvelles choses (par exemple WordPress).",
+
   "licorne.first.description": "À chaque fin d’année, nous avons ce qu’on appelle une “pratique pro”, qui est un projet interdisciplinaire. En juin 2024, la Ppro tournait autour de la brasserie Lic%rne. Sans prendre pour référence la brasserie existante du même nom, on a dû choisir les couleurs des étiquettes, produire une vidéo promotionnelle, réaliser la maquette d’une one page promotionnelle et finalement la coder.",
   "licorne.second.description": "Lic%rne se situe à Estavayer et promeut une production locale et des valeurs telles que l’artisanat, la qualité, la tradition. Ce qui fait sa spécificité c’est qu’elle produit des bières sans alcool. Ce n’est pas une alternative, c’est le plaisir de la bière sous tous ses arôme, pour tout le monde.",
   "licorne.third.description": "Les teintes de beige font référence aux céréales et à l’histoire médiévale de la bière et de la ville. Pour apporter de la modernité, j’ai utilisé des couleurs plus vives pour les bouteilles.",
