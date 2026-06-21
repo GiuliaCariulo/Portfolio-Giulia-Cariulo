@@ -24,12 +24,12 @@ body {
   font-style: normal;
   font-weight: 300;
   line-height: 140%;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.3px;
 }
 
 @media (min-width: 992px) {
   body {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -85,9 +85,9 @@ footer p {
     font-weight: 600;
     text-transform: uppercase;
   }
-  body {
-    font-size: 18px;
-  }
+  // body {
+  //   font-size: 18px;
+  // }
   h2,
   .project-page-h1 {
     font-size: 4rem;

@@ -15,8 +15,11 @@
   "filter.graphism": "Graphism",
 
   "project.scroll": "Please scroll the preview",
-  "project.page.mandate": "Mandate",
+  "project.page.project": "The project",
   "project.page.comments": "Comments",
+  "project.page.more": "See more",
+  "project.page.comparison": "The original",
+  "project.page.partners": "Partners",
   "watch.video": "Watch the video",
   "watch.site": "Watch the site",
 
@@ -28,6 +31,7 @@
   "absurde.third.description": "For this reason, I had the idea to develop an editorial platform run by a militant collective in favor of social struggles and human rights, named «L’Absurde» (fictional). L’Absurde is an independent media. It is present on youtube and Instagram to decrypt the news and related topics, and it maintains this platform. This latter is a directory where different supports can be found to stay informed: press articles, books, podcasts, videos. It is not always easy to find information, especially when one does not know where to start. It therefore allows to guide and vary the supports to adapt to everyone's needs.",
   "absurde.fourth.description": "To develop it, I started learning WordPress. I really wanted to discover CMSs and WordPress seemed like the most accessible for beginners. I would be happy to tell you in detail how I approached the technical part directly in the interview.",
   "absurde.comments": "Many things still need to be improved, here the goal was to think big (too big for my part given the time available) and to deepen my knowledge/learn new things (WordPress for example).",
+  "absurde.partners": "Blabliblo",
 
   "licorne.first.description": "At the end of each year, we have what we call a “professional practice,” which is an interdisciplinary project. In June 2024, the Ppro project centered on the Lic%rne brewery. Without using the existing brewery of the same name as a reference, we had to choose the colors for the labels, produce a promotional video, design a mockup for a one-page promotional brochure, and finally code it.",
   "licorne.second.description": "Lic%rne is located in Estavayer and promotes local production and values such as craftsmanship, quality, and tradition. What sets it apart is that it produces non-alcoholic beers. It’s not just an alternative—it’s the pleasure of beer in all its aromatic richness, for everyone.",
