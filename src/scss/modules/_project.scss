@@ -226,8 +226,9 @@ a.project-page-out {
 .project-page-presentation {
   display: flex;
   flex-direction: column;
-  margin: 0 3 rem;
+  justify-content: center;
   align-items: center;
+  margin: 0 3 rem;
   gap: 2rem;
 }
 
@@ -256,9 +257,24 @@ a.project-page-out {
   display: none;
 }
 
+.project-page-comments a,
+.project-page-comments-mobile a {
+  display: block;
+  margin-top: 1rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: var(--white);
+}
+
+.project-page-comments a:hover,
+.project-page-comments-mobile a:hover {
+  color: var(--green);
+}
+
 @media (min-width: 768px) {
   .project-page-presentation {
     flex-direction: row;
+    align-items: start;
     gap: 6rem;
   }
   .project-page-comments {

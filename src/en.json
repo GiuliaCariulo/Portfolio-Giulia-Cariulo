@@ -21,7 +21,7 @@
   "project.page.comparison": "The original",
   "project.page.partners": "Partners",
   "watch.video": "Watch the video",
-  "watch.site": "Watch the site",
+  "go.site": "Watch the site",
 
   "absurde.first.title": "High-fi wireframes",
   "absurde.second.title": "Moodboard",
@@ -39,7 +39,7 @@
   "licorne.fourth.description": "When I coded it, we hadn’t yet learned how to build responsive websites or use the SMACSS method. The code hasn’t aged well, which is why I’m currently rewriting it.",
   "licorne.first.comments": "I coded this website two years ago, the layout has since been modified, and the code has aged poorly. That's why I'm not providing a link to visit the website.",
   "licorne.second.comments": "Watch the promotional video",
-  "licorne.vid.second.comments": "Watch the promotional site",
+  "licorne.vid.comments": "Watch the promotional site",
 
   "architecture.title": "Architecture",
   "architecture.description": "Here are some architectural photos I took during my travels in Ticino, Venice, and Paris.",
