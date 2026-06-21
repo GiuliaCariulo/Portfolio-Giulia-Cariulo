@@ -21,7 +21,8 @@
   "project.page.comparison": "The original",
   "project.page.partners": "Partners",
   "watch.video": "Watch the video",
-  "go.site": "Watch the site",
+  "go.site": "Go on the site",
+  "go.instagram": "Instagram",
 
   "absurde.first.title": "High-fi wireframes",
   "absurde.second.title": "Moodboard",
@@ -53,6 +54,7 @@
 
   "protoherisse.first.description": "«While a scientist working on the project of a cosmic elevator is exiled from his family home, a female echidna searches for a congenitor to perpetuate her species. Inspired by the journey of Theodore Kaczynski, American mathematics professor who became a terrorist and recently died in prison, this play confronts close and distant invisibles, reminding us that as technology transports us towards ever-higher spheres, millennia-old species are extinguished at our feet. A multifocal play with a fragmented narrative, between satellite surveillance and a child's gaze.»",
   "protoherisse.second.description": "The theater troupe of the University of Fribourg staged and performed \"Protohérissé\" in May 2024 and commissioned me to photograph the performance.",
+  "protoherisse.partners": "“Les Apostrophes,” the University of Fribourg's theater troupe",
 
   "connie.blyde.description": "For the UI/UX class, we were asked to create a one-page website with a strong visual identity for the fictional hair salon Conny&Blyde. The textual content was provided, and we had to organize the information and then layout the page.",
 
@@ -61,7 +63,7 @@
   "bandit.first.title": "The new logo",
   "bandit.first.description": "For the graphic design class, we had to choose a band and create a new logo.",
   "bandit.second.description": "Often nicknamed the Bonnie & Clyde of rock, is an electrifying duo. So far self-centered and cathartic, the lyrics of Bandit Bandit remain intimate while proving political, emancipated, and playful with words. Their unrestrained music resonates strongly throughout an album devouring a desire as insatiable as contagious.",
-  "bandit.comments": "Bandit Bandit cultivates a raw and electric sensuality, carried by the obvious chemistry between Maëva Nicolas and Hugo Herleman. Their music plays on the tension between softness and roughness, mixing caressing vocals, vibrant guitars, and intimate lyrics that border on romantic confessions. On stage, their almost magnetic complicity transforms each song into a sensual exchange of energy and glances, where desire and fragility intertwine.",
+  "bandit.third.description": "Bandit Bandit cultivates a raw and electric sensuality, carried by the obvious chemistry between Maëva Nicolas and Hugo Herleman. Their music plays on the tension between softness and roughness, mixing caressing vocals, vibrant guitars, and intimate lyrics that border on romantic confessions. On stage, their almost magnetic complicity transforms each song into a sensual exchange of energy and glances, where desire and fragility intertwine.",
 
   "tatitotu.first.title": "The new interface",
   "tatitotu.second.title": "The original interface",

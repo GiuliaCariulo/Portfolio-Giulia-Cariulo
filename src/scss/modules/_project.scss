@@ -257,6 +257,12 @@ a.project-page-out {
   display: none;
 }
 
+.project-comments,
+.project-page-comments-mobile {
+  width: 100%;
+  max-width: 500px;
+}
+
 .project-page-comments a,
 .project-page-comments-mobile a {
   display: block;
