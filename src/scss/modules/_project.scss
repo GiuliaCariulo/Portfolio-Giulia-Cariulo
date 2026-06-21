@@ -269,12 +269,12 @@ a.project-page-out {
   margin-top: 1rem;
   text-decoration: underline;
   text-underline-offset: 3px;
-  color: var(--white);
+  color: var(--green);
 }
 
 .project-page-comments a:hover,
 .project-page-comments-mobile a:hover {
-  color: var(--green);
+  color: var(--white);
 }
 
 @media (min-width: 768px) {
