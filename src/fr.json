@@ -46,8 +46,8 @@
   "architecture.title": "Architecture",
   "architecture.description": "Voici quelques photos d'architecture que j'ai prises durant des voyages, Tessin, Venise, Paris.",
 
-  "fc-bulle.first.description": "Le FC Bulle (club de foot) cherchait quelqu’un pour rafraîchir leur vidéo promotionnelle du hero de leur site. J’ai eu le plaisir de travailler avec mon amie Clémentine Couchet pour ce projet.",
-  "fc-bulle.second.description": "Nous avons mis l’accent sur l’esprit collectif de ce sport. Pour créer cet effet on a filmé des moments de complicité et réalisé un jeu avec la balle qui se passe d’un plan à l’autre.",
+  "fc.bulle.first.description": "Le FC Bulle (club de foot) cherchait quelqu’un pour rafraîchir leur vidéo promotionnelle du hero de leur site. J’ai eu le plaisir de travailler avec mon amie Clémentine Couchet pour ce projet.",
+  "fc.bulle.second.description": "Nous avons mis l’accent sur l’esprit collectif de ce sport. Pour créer cet effet on a filmé des moments de complicité et réalisé un jeu avec la balle qui se passe d’un plan à l’autre.",
 
   "stromer.first.description": "Pour le cours de graphisme, il nous a été demandé de réaliser par groupes une mise à jour et reconstruction de l’identité visuelle de Stromer. Je me suis occupée du Logo.",
   "stromer.second.description": "Afin de renforcer le positionnement de Stromer, la nouvelle identité visuelle incarne l’essence de la mobilité urbaine moderne. Elle allie élégance, performance et innovation technologique, tout en restant fidèle aux valeurs fondatrices de Stromer : durabilité, qualité suisse et design d’exception.",
@@ -58,7 +58,7 @@
 
   "connie.blyde.description": "Pour le cours de UI/UX, il nous a été demandé de réaliser une onepage à l’identité forte pour le salon de coiffure Conny&Blyde. Le contenu textuel était donné, il a fallu organiser les informations et ensuite la mettre en page.",
 
-  "atlas-divin.title": "La maquette imposée",
+  "atlas.divin.title": "La maquette imposée",
   "atlas.description": "Atlas Divin est une maquette qui nous a été donnée à développer en cours. On y a appris à réaliser un changement de thème light/dark mode et des filtres dynamiques. Le respect de la sémantique était mis en avant dans l’évaluation.",
 
   "bandit.first.title": "Le nouveau logo",
@@ -75,10 +75,10 @@
   "nepal.first.description": "Dans le cadre du cours vidéo, on a pu réalisé un clip sur la musique qu’on voulait. Népal est un rappeur parisien à l’aura mystérieuse, figure discrète d’une scène indépendante façonnée entre ombre et lumière. Membre du collectif 75e Session, il a construit un univers mélancolique et introspectif, mêlant prods planantes, textes lucides et esthétique nocturne.",
   "nepal.second.description": "On a repris cet univers de nuit, avec le visage caché dans la ville. La chaise est centrale tout au long du clip. Quand on voit une chaise vide, on s’imagine que quelqu’un pourrait s’y asseoir. Elle marque à la fois une présence humaine et l’absence de la personne assise. C’est un au revoir au défunt rappeur, Népal.",
 
-  "cv-tab.education": "Formations",
-  "cv-tab.skills": "Compétences",
-  "cv-tab.experience": "Expériences",
-  "cv-tab.languages": "Langues",
+  "cv.tab.education": "Formations",
+  "cv.tab.skills": "Compétences",
+  "cv.tab.experience": "Expériences",
+  "cv.tab.languages": "Langues",
 
   "cv.education.first.date": "2021-Maintenant",
   "cv.education.first.text.a": "CFC Interactive Media Designer,",

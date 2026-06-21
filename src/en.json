@@ -46,8 +46,8 @@
   "architecture.title": "Architecture",
   "architecture.description": "Here are some architectural photos I took during my travels in Ticino, Venice, and Paris.",
 
-  "fc-bulle.first.description": "The FC Bulle (soccer club) was looking for someone to refresh their promotional video for their website and Instagram post. I had the pleasure of working with my friend Clémentine Couchet on this project.",
-  "fc-bulle.second.description": "We focused on the collective spirit of this sport. To create this effect, we filmed moments of camaraderie and created a game with the ball that takes place from one shot to the next.",
+  "fc.bulle.first.description": "The FC Bulle (soccer club) was looking for someone to refresh their promotional video for their website and Instagram post. I had the pleasure of working with my friend Clémentine Couchet on this project.",
+  "fc.bulle.second.description": "We focused on the collective spirit of this sport. To create this effect, we filmed moments of camaraderie and created a game with the ball that takes place from one shot to the next.",
 
   "stromer.first.description": "For the graphic design class, we were asked to update and reconstruct the visual identity of Stromer. I was in charge of the logo.",
   "stromer.second.description": "In order to strengthen Stromer's positioning, the new visual identity embodies the essence of modern urban mobility. It combines elegance, performance and technological innovation, while remaining faithful to Stromer's founding values: sustainability, Swiss quality and exceptional design.",
@@ -58,6 +58,7 @@
 
   "connie.blyde.description": "For the UI/UX class, we were asked to create a one-page website with a strong visual identity for the fictional hair salon Conny&Blyde. The textual content was provided, and we had to organize the information and then layout the page.",
 
+  "atlas.divin.title": "The given layout",
   "atlas.description": "Atlas Divin is a layout that was given to us to develop in class. We learned how to implement a light/dark theme change and dynamic filters. The respect of semantics was highlighted in the evaluation.",
 
   "bandit.first.title": "The new logo",
@@ -73,12 +74,10 @@
   "nepal.first.description": "As part of the video class, we were able to create a music video set to the song of our choice. Népal is a Parisian rapper with a mysterious aura, a low-key figure in an independent scene that exists somewhere between light and shadow. As a member of the 75e Session collective, he has crafted a melancholic and introspective world, blending dreamy beats, lucid lyrics, and a nocturnal aesthetic.",
   "nepal.second.description": "We revisited this nocturnal world, with the face hidden within the city. The chair plays a central role throughout the video. When we see an empty chair, we imagine that someone could sit there. It signifies both a human presence and the absence of the person sitting there. It is a farewell to the late rapper, Népal.",
 
-  "atlas-divin.title": "The given layout",
-
-  "cv-tab.education": "Education",
-  "cv-tab.skills": "Skills",
-  "cv-tab.experience": "Experiences",
-  "cv-tab.languages": "Languages",
+  "cv.tab.education": "Education",
+  "cv.tab.skills": "Skills",
+  "cv.tab.experience": "Experiences",
+  "cv.tab.languages": "Languages",
 
   "cv.education.first.date": "2021-Now",
   "cv.education.first.text.a": "Federal VET Diploma in Interactive Media Design",
