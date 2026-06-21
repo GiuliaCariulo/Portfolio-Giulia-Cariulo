@@ -289,7 +289,7 @@ a.project-page-out {
   margin-bottom: 1rem;
   text-align: left;
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
 }
 
 .project-page-gallery img {
@@ -321,4 +321,10 @@ a.project-page-out {
 .project-page-partners div {
   width: 100%;
   max-width: 500px;
+}
+
+@media (min-width: 768px) {
+  .project-page-partners {
+    max-width: max-content;
+  }
 }
