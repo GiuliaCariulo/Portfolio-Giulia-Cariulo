@@ -58,6 +58,10 @@
   gap: 2rem;
 }
 
+.tabs-slide-flex div {
+  max-width: 50ch;
+}
+
 #tabs-slide-2 ul {
   display: flex;
   flex-direction: column;
