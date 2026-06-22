@@ -5,6 +5,8 @@
   align-items: center;
   gap: 1rem;
   padding-top: 2rem;
+  max-width: 55ch;
+  min-width: 40ch;
 }
 
 .me-photo {
@@ -53,13 +55,13 @@
 
 .me img {
   display: none;
-  padding: 3rem 0 0;
+  padding: 1rem 0 0;
 }
 
 @media (min-width: 768px) {
   .me img {
     display: block;
-    width: 200px;
+    width: 120px;
   }
 }
 
@@ -69,6 +71,20 @@
   }
   .me img {
     display: block;
+    width: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .me img {
+    display: block;
     width: 220px;
+  }
+}
+
+@media (min-width: 1524px) {
+  .me img {
+    display: block;
+    width: 250px;
   }
 }
