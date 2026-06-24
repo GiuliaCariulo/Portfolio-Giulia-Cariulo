@@ -9,10 +9,11 @@
   cursor: pointer;
   text-transform: uppercase;
   transition: color 0.3s;
+  -webkit-text-fill-color: var(--black);
 }
 
 .lang-btn button:hover {
-  color: var(--white);
+  -webkit-text-fill-color: var(--white);
 }
 
 .lang-btn button:first-child {

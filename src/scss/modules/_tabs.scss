@@ -9,6 +9,12 @@
 .tabs button {
   background-color: var(--black);
   border: none;
+  -webkit-tap-highlight-color: transparent;
+
+  &:focus-visible {
+    outline: 2px solid var(--green);
+    outline-offset: 2px;
+  }
 }
 
 .tabs h3 {
@@ -18,13 +24,20 @@
   letter-spacing: 2px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--green);
+  -webkit-text-fill-color: var(--black);
+  -webkit-tap-highlight-color: transparent;
   margin-bottom: 4px;
   cursor: pointer;
   transition: color 0.3s;
 
-  &:hover {
-    color: var(--green);
+  &:focus-visible {
+    outline: 2px solid var(--green);
+    outline-offset: 2px;
   }
+
+  // &:hover {
+  //   -webkit-text-fill-color: var(--green);
+  // }
 }
 
 .tabs-slide {
@@ -44,10 +57,10 @@
   display: block;
 
   h3 {
-    color: var(--white) !important;
     text-decoration: underline;
     text-underline-offset: 3px;
     text-decoration-style: solid;
+    -webkit-text-fill-color: var(--white);
     -webkit-text-stroke-color: var(--white);
   }
 }

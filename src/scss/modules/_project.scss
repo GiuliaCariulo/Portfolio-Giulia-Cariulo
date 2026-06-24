@@ -293,7 +293,8 @@ a.project-page-out {
 
 .project-page-presentation img {
   width: 100%;
-  height: fit-content;
+  height: auto;
+  display: block;
 }
 
 .project-page-plus {
