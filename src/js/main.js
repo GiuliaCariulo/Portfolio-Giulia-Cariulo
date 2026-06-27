@@ -49,32 +49,43 @@ document.addEventListener("DOMContentLoaded", async () => {
   // ============================================
   // Cette fonction change la langue de TOUS les éléments traduits de la page
   const useCorrectTranslation = (lang) => {
-    // On crée un objet qui fait le lien entre le code langue ("en" ou "fr")
-    // et le fichier de traductions correspondant
     const translations_map = {
-      en: enTranslations, // Si langue = "en", on utilise enTranslations
-      fr: frTranslations, // Si langue = "fr", on utilise frTranslations
+      en: enTranslations,
+      fr: frTranslations,
     };
 
-    // On récupère le bon fichier de traductions selon la langue demandée
     const translationsData = translations_map[lang];
 
-    // On récupère TOUS les éléments HTML qui ont un attribut "data-translation"
-    // Ces éléments sont ceux qui doivent être traduits
     const translations = document.querySelectorAll("[data-translation]");
 
-    // Pour chaque élément à traduire :
     translations.forEach((translation) => {
-      // On récupère la clé de traduction (ex: "home.title", "home.description")
-      // Cette clé est définie dans l'attribut data-translation du HTML
       const key = translation.dataset.translation;
-
-      // Si cette clé existe dans le fichier de traductions,
-      // on remplace le texte de l'élément par la traduction
       if (translationsData[key]) {
         translation.textContent = translationsData[key];
       }
     });
+
+    // ============================================
+    // AJOUTÉ — DÉBUT DU BLOC À AJOUTER
+    // ============================================
+    const cvLink = document.getElementById("cv-download");
+    if (cvLink) {
+      const cvFiles = {
+        fr: {
+          href: "files/CariuloGiulia_CV_InteractiveMediaDesigner_FR.pdf",
+          download: "CariuloGiulia_CV_InteractiveMediaDesigner",
+        },
+        en: {
+          href: "files/CariuloGiulia_CV_InteractiveMediaDesigner_EN.pdf",
+          download: "CariuloGiulia_CV_InteractiveMediaDesigner",
+        },
+      };
+      cvLink.href = cvFiles[lang].href;
+      cvLink.download = cvFiles[lang].download;
+    }
+    // ============================================
+    // AJOUTÉ — FIN DU BLOC À AJOUTER
+    // ============================================
   };
 
   // ============================================
