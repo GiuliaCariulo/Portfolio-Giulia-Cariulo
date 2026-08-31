@@ -208,7 +208,7 @@ filters.forEach((filter) => {
     cards.forEach((card) => {
       const type = card.getAttribute("data-type");
 
-      if (value === "") {
+      if (value === "all") {
         card.classList.remove("hide");
       } else {
         if (type === value) {
