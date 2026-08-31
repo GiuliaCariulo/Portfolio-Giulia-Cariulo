@@ -35,8 +35,12 @@
 }
 
 .contact ul li a {
-  color: var(--green);
+  color: var(--white);
   text-decoration: none;
+}
+
+.contact p {
+  color: var(--green);
 }
 
 .contact a,
@@ -51,7 +55,7 @@
 }
 
 .contact a:hover {
-  color: var(--withe);
+  color: var(--green);
 }
 
 .contact a:after {
