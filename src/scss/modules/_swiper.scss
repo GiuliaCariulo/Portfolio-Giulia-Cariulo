@@ -1,0 +1,46 @@
+.slider {
+  position: relative;
+  margin: 200px 0 0;
+  border-radius: 4px;
+  height: 600px;
+  max-width: 1500px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 90%;
+  object-fit: contain;
+}
+
+button.control_prev svg {
+  margin-left: 5vw;
+}
+
+button.control_next svg {
+  margin-right: 5vw;
+}
+
+button.control_prev,
+button.control_next {
+  position: absolute;
+  top: 35%;
+  z-index: 10;
+  padding: 10px 2px;
+  border: none;
+  background: none;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+button.control_prev:hover,
+button.control_next:hover {
+  opacity: 1;
+  transition: all 0.2s ease;
+}
+
+button.control_prev {
+  left: 30;
+}
+button.control_next {
+  right: 30;
+}
